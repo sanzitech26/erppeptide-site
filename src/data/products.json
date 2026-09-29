@@ -1,0 +1,4922 @@
+[
+  {
+    "id": 46,
+    "slug": "46-semaglutide",
+    "name": "Semaglutide",
+    "description": "Semaglutide is a synthetic analog of the GLP-1 hormone studied for its effects on appetite regulation, glucose control, and metabolic function. It mimics the body’s natural incretin response and is widely researched in models related to weight management and insulin signaling.",
+    "sku": "BKSKU-OFER-165",
+    "price": 40,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/46-Semaglutide.png",
+    "categoryIds": [
+      100019
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-OFER-165",
+        "label": "Option 1",
+        "price": 40,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-EZQA-898",
+        "label": "Option 2",
+        "price": 59,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-QWRZ-807",
+        "label": "Option 3",
+        "price": 85,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "slug": "47-retatrutide",
+    "name": "Retatrutide",
+    "description": "Retatrutide is a next-generation multi-receptor peptide studied for its effects on metabolism, appetite regulation, and energy expenditure. Unlike traditional GLP-1 compounds, Retatrutide activates GLP-1, GIP, and glucagon receptors simultaneously, making it one of the most advanced compounds in metabolic and weight-management research.",
+    "sku": "BKSKU-UKVI-846",
+    "price": 65,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/47-Retatrutide.png",
+    "categoryIds": [
+      100019
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-UKVI-846",
+        "label": "Option 1",
+        "price": 65,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-AZOJ-712",
+        "label": "Option 2",
+        "price": 84,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-VSUI-554",
+        "label": "Option 3",
+        "price": 119,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-HBFJ-994",
+        "label": "Option 4",
+        "price": 144,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-UMWK-813",
+        "label": "Option 5",
+        "price": 174,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-GVSS-887",
+        "label": "Option 6",
+        "price": 224,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-KRIA-589",
+        "label": "Option 7",
+        "price": 254,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-NRJZ-113",
+        "label": "Option 8",
+        "price": 279,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-RWTF-237",
+        "label": "Option 9",
+        "price": 419,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "slug": "48-tesamorelin",
+    "name": "Tesamorelin",
+    "description": "Tesamorelin is a synthetic analog of growth hormone-releasing hormone (GHRH), studied for its ability to stimulate natural growth hormone production and influence visceral fat metabolism. It is widely researched for abdominal fat reduction, metabolic regulation, and body composition support while maintaining physiological hormone signaling.",
+    "sku": "BKSKU-EEUQ-462",
+    "price": 99,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/48-Tesamorelin.png",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-EEUQ-462",
+        "label": "Option 1",
+        "price": 99,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-XJRX-627",
+        "label": "Option 2",
+        "price": 159,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-IJWM-837",
+        "label": "Option 3",
+        "price": 299,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "slug": "49-aod9604",
+    "name": "AOD9604",
+    "description": "AOD9604 is a modified fragment of human growth hormone (HGH), specifically developed to target fat metabolism. It is widely studied for its ability to stimulate fat breakdown while minimizing effects on growth-related pathways, making it a focused option in fat loss research.",
+    "sku": "BKSKU-TQPA-943",
+    "price": 100,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/49-AOD9604.png",
+    "categoryIds": [
+      100019
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-TQPA-943",
+        "label": "Option 1",
+        "price": 100,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "slug": "50-bpc157",
+    "name": "BPC157",
+    "description": "BPC-157 is a synthetic peptide derived from a naturally occurring protein found in gastric juice. It is widely studied for its potential role in tissue repair, recovery, and protection of the gastrointestinal system, making it a popular compound in research related to healing and regenerative processes.",
+    "sku": "BKSKU-UABG-565",
+    "price": 39,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/50-BPC157.png",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-UABG-565",
+        "label": "Option 1",
+        "price": 39,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-FXOO-704",
+        "label": "Option 2",
+        "price": 59,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "slug": "51-ghk-cu",
+    "name": "GHK-CU",
+    "description": "GHK-Cu is a copper-binding peptide naturally found in human plasma, studied for its role in tissue repair, skin regeneration, and hair-related research. It is widely explored in cosmetic and regenerative models due to its potential effects on collagen production, inflammation control, and cellular renewal.",
+    "sku": "BKSKU-FBNM-147",
+    "price": 39,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/51-GHK-CU.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-FBNM-147",
+        "label": "Option 1",
+        "price": 39,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-ZZJJ-654",
+        "label": "Option 2",
+        "price": 59,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "slug": "52-klow",
+    "name": "KLOW",
+    "description": "KLOW is an advanced multi-peptide research blend combining BPC-157, GHK-Cu, TB-500, and KPV, designed to support tissue repair, skin regeneration, and inflammation modulation. This enhanced formula builds upon traditional recovery stacks by adding KPV, making it widely studied for both regenerative and anti-inflammatory applications.",
+    "sku": "BKSKU-CFAL-416",
+    "price": 189,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/52-KLOW.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-CFAL-416",
+        "label": "Option 1",
+        "price": 189,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "slug": "53-mots-c",
+    "name": "MOTS-C",
+    "description": "MOTS-c is a mitochondrial-derived peptide studied for its role in metabolic regulation, energy balance, and exercise-related pathways. It is widely researched for its potential to improve metabolic flexibility, cellular energy utilization, and physical performance.",
+    "sku": "BKSKU-ZTTJ-974",
+    "price": 59,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/53-MOTS-C.png",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-ZTTJ-974",
+        "label": "Option 1",
+        "price": 59,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-TZRB-202",
+        "label": "Option 2",
+        "price": 109,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-JCOX-049",
+        "label": "Option 3",
+        "price": 175,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "slug": "54-cagrilintide",
+    "name": "Cagrilintide",
+    "description": "Cagrilintide is a long‑acting acylated analogue of the pancreatic hormone amylin, designed for once‑weekly subcutaneous administration. It activates central amylin receptors to promote satiety, slow gastric emptying, and reduce food intake. In phase 2 and phase 3 trials, cagrilintide produced dose‑dependent weight loss with a predominantly gastrointestinal side‑effect profile.",
+    "sku": "BKSKU-UXTA-768",
+    "price": 89,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/54-Cagrilintide.png",
+    "categoryIds": [
+      100019
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-UXTA-768",
+        "label": "Option 1",
+        "price": 89,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-BHPU-692",
+        "label": "Option 2",
+        "price": 139,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "slug": "56-tb500",
+    "name": "TB500",
+    "description": "TB-500 is a synthetic version of Thymosin Beta-4, a naturally occurring peptide found in various tissues throughout the body. It is widely studied for its role in cell migration, tissue repair, and recovery processes, making it a key compound in research focused on healing and regeneration.",
+    "sku": "BKSKU-ICPI-059",
+    "price": 79,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/56-TB500.png",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-ICPI-059",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-GOOX-542",
+        "label": "Option 2",
+        "price": 129,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "slug": "57-bpc157-tb500",
+    "name": "BPC157 + TB500",
+    "description": "BPC-157 and TB-500 are commonly combined in research to support tissue repair and recovery processes. This dual approach targets both localized healing and systemic regeneration, making it a widely studied combination for injury-related and recovery-focused models.",
+    "sku": "BKSKU-EJDI-280",
+    "price": 99,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/57-BPC157 + TB500.png",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-EJDI-280",
+        "label": "Option 1",
+        "price": 99,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-UBWM-258",
+        "label": "Option 2",
+        "price": 179,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "slug": "58-melanotan-1",
+    "name": "Melanotan 1",
+    "description": "Melanotan 1 is a synthetic peptide analog of alpha-melanocyte-stimulating hormone (α-MSH), studied for its ability to stimulate melanin production in the skin. It is commonly researched for its role in pigmentation, UV response, and skin protection mechanisms.",
+    "sku": "BKSKU-JWSB-941",
+    "price": 49,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/58-Melanotan 1.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-JWSB-941",
+        "label": "Option 1",
+        "price": 49,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "slug": "59-tirzepatide",
+    "name": "Tirzepatide",
+    "description": "Tirzepatide is a synthetic peptide that acts as a dual agonist of the GIP and GLP-1 receptors, studied for its role in metabolic and glucose regulation. It is commonly used in preclinical models to investigate effects on insulin sensitivity and energy balance.",
+    "sku": "BKSKU-SFSY-506",
+    "price": 55,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/59-Tirzepatide.png",
+    "categoryIds": [
+      100019
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-SFSY-506",
+        "label": "Option 1",
+        "price": 55,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-PWVY-085",
+        "label": "Option 2",
+        "price": 65,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-EURW-324",
+        "label": "Option 3",
+        "price": 75,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-WGUM-466",
+        "label": "Option 4",
+        "price": 89,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-YOEH-056",
+        "label": "Option 5",
+        "price": 109,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-UBKD-669",
+        "label": "Option 6",
+        "price": 149,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-C4RI-307",
+        "label": "Option 7",
+        "price": 180,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-JWKU-472",
+        "label": "Option 8",
+        "price": 209,
+        "inStock": true
+      },
+      {
+        "sku": "EMMY-CN-TR100",
+        "label": "Option 9",
+        "price": 269,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-3YJ8-747",
+        "label": "Option 10",
+        "price": 299,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "slug": "60-survodutide",
+    "name": "Survodutide",
+    "description": "",
+    "sku": "BKSKU-WBDO-178",
+    "price": 249,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/60-Survodutide.png",
+    "categoryIds": [
+      100019
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-WBDO-178",
+        "label": "Option 1",
+        "price": 249,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "slug": "62-melanotan-2",
+    "name": "Melanotan 2",
+    "description": "Melanotan 2 is a synthetic analog of alpha-melanocyte-stimulating hormone (α-MSH), developed for research into skin pigmentation and melanocortin system activity. It is widely studied for its ability to promote melanin production and influence multiple pathways related to pigmentation and physiological responses.",
+    "sku": "BKSKU-KEQV-497",
+    "price": 49,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/62-Melanotan 2.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-KEQV-497",
+        "label": "Option 1",
+        "price": 49,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "slug": "64-hcg",
+    "name": "HCG",
+    "description": "HCG (Human Chorionic Gonadotropin) is a hormone that mimics the action of luteinizing hormone (LH) in the body. It is widely studied for its role in regulating hormonal balance, particularly in relation to testosterone production and reproductive system function.",
+    "sku": "BKSKU-UPFM-002",
+    "price": 75,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/64-HCG.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-UPFM-002",
+        "label": "Option 1",
+        "price": 75,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-GOHF-488",
+        "label": "Option 2",
+        "price": 135,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "slug": "65-hmg",
+    "name": "HMG",
+    "description": "HMG (Human Menopausal Gonadotropin) is a combination of follicle-stimulating hormone (FSH) and luteinizing hormone (LH), widely studied for its role in regulating reproductive function and hormonal balance. It is commonly used in research models focusing on fertility, endocrine recovery, and gonadal function.",
+    "sku": "BKSKU-DLPQ-353",
+    "price": 79,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/65-HMG.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-DLPQ-353",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "slug": "67-glow",
+    "name": "GLOW",
+    "description": "GLOW is a multi-peptide research blend combining GHK-Cu, TB-500, and BPC-157, designed to support skin regeneration, tissue repair, and overall recovery processes. This combination targets both surface-level improvements and deeper structural repair, making it widely studied in skin health and regenerative models.",
+    "sku": "BKSKU-VBMB-909",
+    "price": 179,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/67-GLOW.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-VBMB-909",
+        "label": "Option 1",
+        "price": 179,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "slug": "68-ipamorelin",
+    "name": "Ipamorelin",
+    "description": "Ipamorelin is a selective growth hormone secretagogue that stimulates the release of growth hormone without significantly affecting other hormones. It is widely studied for its role in promoting natural GH secretion, recovery, and metabolic support with a more controlled and targeted profile.",
+    "sku": "BKSKU-WNRG-592",
+    "price": 59,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/68-Ipamorelin.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-WNRG-592",
+        "label": "Option 1",
+        "price": 59,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-IEXQ-019",
+        "label": "Option 2",
+        "price": 79,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "slug": "69-sermorelin",
+    "name": "Sermorelin",
+    "description": "Sermorelin is a synthetic peptide that functions as a growth hormone-releasing hormone (GHRH) analog. It is widely studied for its ability to stimulate the natural production of growth hormone (GH) in research models, making it relevant in studies related to metabolism, recovery, and endocrine regulation.",
+    "sku": "BKSKU-EHAD-039",
+    "price": 69,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/69-Sermorelin.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-EHAD-039",
+        "label": "Option 1",
+        "price": 69,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-PBHD-950",
+        "label": "Option 2",
+        "price": 130,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "slug": "70-thymalin",
+    "name": "Thymalin",
+    "description": "Thymalin is a peptide complex derived from thymus gland extracts, widely studied for its role in immune system regulation, cellular repair, and aging-related processes. It is commonly explored in research models focused on immune support and systemic regeneration.",
+    "sku": "BKSKU-02AY-629",
+    "price": 49,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/70-Thymalin.png",
+    "categoryIds": [
+      100021
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-RKYT-447",
+        "label": "Option 1",
+        "price": 69,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-02AY-629",
+        "label": "Option 2",
+        "price": 49,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "slug": "71-cjc-1295-with-dac",
+    "name": "CJC-1295 with DAC",
+    "description": "CJC-1295 with DAC is a long-acting analog of growth hormone-releasing hormone (GHRH), designed to stimulate sustained growth hormone release. With the addition of DAC (Drug Affinity Complex), it provides extended activity, making it widely studied for prolonged GH and IGF-1 elevation in metabolic and recovery research.",
+    "sku": "BKSKU-DIEP-353",
+    "price": 150,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/71-CJC-1295 with DAC.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-DIEP-353",
+        "label": "Option 1",
+        "price": 150,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-KHXP-966",
+        "label": "Option 2",
+        "price": 190,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "slug": "72-cjc-1295-without-dac",
+    "name": "CJC-1295 without DAC",
+    "description": "CJC-1295 (Without DAC) is a short-acting analog of growth hormone-releasing hormone (GHRH), designed to stimulate natural pulsatile release of growth hormone. It is widely studied for its ability to mimic the body’s natural GH rhythm, making it a preferred option in research focused on physiological hormone patterns.",
+    "sku": "BKSKU-NENE-359",
+    "price": 79,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/72-CJC-1295 without DAC.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-NENE-359",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-YJNH-868",
+        "label": "Option 2",
+        "price": 139,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "slug": "73-cjc-1295-without-dac-ipamorelin",
+    "name": "CJC-1295 without DAC + Ipamorelin",
+    "description": "CJC-1295 (Without DAC) combined with Ipamorelin is a widely studied peptide stack designed to stimulate natural growth hormone release through complementary pathways. This combination mimics physiological GH pulsation while enhancing overall hormone output, making it a popular approach in research focused on recovery, metabolism, and hormonal balance.",
+    "sku": "BKSKU-XQYN-280",
+    "price": 109,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/73-CJC-1295 without DAC + Ipamorelin.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-XQYN-280",
+        "label": "Option 1",
+        "price": 109,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-DYLN-401",
+        "label": "Option 2",
+        "price": 179,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "slug": "74-vesugen",
+    "name": "Vesugen",
+    "description": "Vesugen is a short peptide complex studied for its role in supporting vascular health and cellular regulation. It is commonly explored in research focused on cardiovascular function, tissue regeneration, and age-related changes in vascular systems.",
+    "sku": "BKSKU-FEGM-724",
+    "price": 105,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/74-Vesugen.png",
+    "categoryIds": [
+      100021
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-FEGM-724",
+        "label": "Option 1",
+        "price": 105,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-YTGM-008",
+        "label": "Option 2",
+        "price": 159,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "slug": "75-epithalon",
+    "name": "Epithalon",
+    "description": "Epithalon is a synthetic tetrapeptide studied for its role in cellular aging, DNA regulation, and longevity-related processes. It is widely researched for its potential to influence telomerase activity and support long-term cellular stability, making it a key compound in anti-aging research.",
+    "sku": "BKSKU-ZDEP-576",
+    "price": 49,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/75-Epithalon.png",
+    "categoryIds": [
+      100021
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-ZDEP-576",
+        "label": "Option 1",
+        "price": 49,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-OMHD-310",
+        "label": "Option 2",
+        "price": 150,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "slug": "76-ahk-cu",
+    "name": "AHK-CU",
+    "description": "AHK-Cu is a copper-binding peptide complex studied for its role in hair growth, skin regeneration, and cellular repair. It is widely researched for its potential to support hair follicle health and improve skin condition, making it a targeted compound in cosmetic and regenerative studies.",
+    "sku": "BKSKU-KOVH-970",
+    "price": 59,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/76-AHK-CU.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-KOVH-970",
+        "label": "Option 1",
+        "price": 59,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-QTNX-493",
+        "label": "Option 2",
+        "price": 75,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "slug": "77-igf-1-lr3",
+    "name": "IGF-1 LR3",
+    "description": "IGF-1 LR3 (Insulin-like Growth Factor-1 Long R3) is a modified version of IGF-1 with an extended half-life and enhanced stability. It is widely studied for its role in muscle growth, cellular repair, and anabolic processes, making it a key compound in growth and performance-related research.",
+    "sku": "BKSKU-SYWF-812",
+    "price": 49,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/77-IGF-1 LR3.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-SYWF-812",
+        "label": "Option 1",
+        "price": 49,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-TGTR-055",
+        "label": "Option 2",
+        "price": 220,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "slug": "78-kisspeptin",
+    "name": "KissPeptin",
+    "description": "KissPeptin is a regulatory peptide studied for its role in controlling the reproductive hormone axis. It acts upstream of key hormonal pathways, influencing the release of gonadotropin-releasing hormone (GnRH), making it a central component in research related to hormonal signaling and reproductive function.",
+    "sku": "BKSKU-CHWY-303",
+    "price": 65,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/78-KissPeptin.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-CHWY-303",
+        "label": "Option 1",
+        "price": 65,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-HTWR-918",
+        "label": "Option 2",
+        "price": 80,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "slug": "79-nad",
+    "name": "NAD+",
+    "description": "NAD+ is a coenzyme found in all living cells, essential for energy production and cellular metabolism. It is widely studied for its role in mitochondrial function, DNA repair, and aging-related processes, making it a key compound in longevity and metabolic research.",
+    "sku": "BKSKU-LLSD-979",
+    "price": 65,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/79-NAD+.png",
+    "categoryIds": [
+      100021
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-LLSD-979",
+        "label": "Option 1",
+        "price": 65,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-SRGA-010",
+        "label": "Option 2",
+        "price": 119,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "slug": "80-botulinum-toxin",
+    "name": "Botulinum toxin",
+    "description": "Botulinum toxin is a neurotoxic protein studied for its ability to temporarily reduce muscle activity by blocking nerve signals. It is widely researched in cosmetic and neuromuscular applications, particularly for reducing the appearance of wrinkles and fine lines.",
+    "sku": "BKSKU-TYOL-717",
+    "price": 159,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/80-Botulinum toxin.png",
+    "categoryIds": [
+      100019
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-TYOL-717",
+        "label": "Option 1",
+        "price": 159,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "slug": "81-thymosin-alpha-1",
+    "name": "Thymosin Alpha-1",
+    "description": "",
+    "sku": "BKSKU-FOVJ-551",
+    "price": 100,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/81-Thymosin Alpha-1.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-FOVJ-551",
+        "label": "Option 1",
+        "price": 100,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-ZWMH-959",
+        "label": "Option 2",
+        "price": 180,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "slug": "82-pt141",
+    "name": "PT141",
+    "description": "PT-141 (Bremelanotide) is a synthetic peptide analog of α-MSH, studied for its effects on the central nervous system related to arousal and behavioral response. Unlike traditional pathways, it works through neural signaling rather than vascular mechanisms, making it a unique compound in research on libido and behavioral activation.",
+    "sku": "BKSKU-AJXK-990",
+    "price": 69,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/82-PT141.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-AJXK-990",
+        "label": "Option 1",
+        "price": 69,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "slug": "83-5-amino-1mq",
+    "name": "5-amino-1mq",
+    "description": "5-Amino-1MQ is a small-molecule compound studied for its role in cellular metabolism and fat regulation. It is widely researched for its ability to influence energy utilization and adipose tissue development, making it a unique option in metabolic and fat-related studies.",
+    "sku": "BKSKU-QQSH-258",
+    "price": 40,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/83-5-amino-1mq.png",
+    "categoryIds": [
+      100019
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-QQSH-258",
+        "label": "Option 1",
+        "price": 40,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-DLOS-479",
+        "label": "Option 2",
+        "price": 55,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-YSSO-615",
+        "label": "Option 3",
+        "price": 80,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "slug": "84-pe-22-28",
+    "name": "PE-22-28",
+    "description": "PE-22-28 is a synthetic peptide derived from the spadin sequence, studied for its role in mood regulation and neurobiological pathways. It is commonly explored in research related to emotional balance, stress response, and central nervous system activity.",
+    "sku": "BKSKU-IHSE-659",
+    "price": 80,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/84-PE-22-28.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-IHSE-659",
+        "label": "Option 1",
+        "price": 80,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "slug": "85-cerebrolysin",
+    "name": "Cerebrolysin",
+    "description": "Cerebrolysin is a peptide-based compound derived from brain proteins, widely studied for its role in neuroprotection and cognitive function. It is commonly explored in research related to neuronal repair, brain health, and central nervous system support.",
+    "sku": "BKSKU-EAXV-260",
+    "price": 90,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/85-Cerebrolysin.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-EAXV-260",
+        "label": "Option 1",
+        "price": 90,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "slug": "87-cortagen",
+    "name": "Cortagen",
+    "description": "Cortagen is a short peptide complex studied for its role in cognitive function and neuronal regulation. It is commonly explored in research related to memory, focus, and central nervous system support, particularly in models involving age-related cognitive changes.",
+    "sku": "BKSKU-SZYC-779",
+    "price": 105,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/87-Cortagen.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-SZYC-779",
+        "label": "Option 1",
+        "price": 105,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "slug": "88-snap-8",
+    "name": "Snap-8",
+    "description": "SNAP-8 is a synthetic peptide derived from the SNAP-25 protein, studied for its ability to reduce muscle contraction signals involved in facial expressions. It is commonly explored in cosmetic research for reducing the appearance of fine lines and expression wrinkles.",
+    "sku": "BKSKU-QEFW-544",
+    "price": 49,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/88-Snap-8.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-QEFW-544",
+        "label": "Option 1",
+        "price": 49,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "slug": "89-selank",
+    "name": "Selank",
+    "description": "Selank is a synthetic peptide derived from the tuftsin sequence, studied for its role in mood regulation and anxiety-related pathways. It is commonly explored in research focused on emotional stability, stress response, and central nervous system balance.",
+    "sku": "BKSKU-QMBN-279",
+    "price": 39,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/89-Selank.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-QMBN-279",
+        "label": "Option 1",
+        "price": 39,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-IFSP-906",
+        "label": "Option 2",
+        "price": 69,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "slug": "90-semax",
+    "name": "Semax",
+    "description": "Semax is a synthetic peptide derived from adrenocorticotropic hormone (ACTH) fragments, studied for its role in cognitive function, focus, and neuroprotection. It is commonly explored in research related to memory, attention, and central nervous system performance.",
+    "sku": "BKSKU-OMOU-477",
+    "price": 39,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/90-Semax.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-OMOU-477",
+        "label": "Option 1",
+        "price": 39,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-FLHG-199",
+        "label": "Option 2",
+        "price": 69,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "slug": "91-oxytocin-acetate",
+    "name": "Oxytocin Acetate",
+    "description": "Oxytocin Acetate is a synthetic form of oxytocin, a naturally occurring peptide hormone involved in social bonding, emotional regulation, and behavioral responses. It is widely studied for its effects on trust, connection, and central nervous system activity.",
+    "sku": "BKSKU-MQIH-115",
+    "price": 70,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/91-Oxytocin Acetate.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-MQIH-115",
+        "label": "Option 1",
+        "price": 70,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-ZYSQ-760",
+        "label": "Option 2",
+        "price": 95,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "slug": "92-ss-31",
+    "name": "SS-31",
+    "description": "SS-31 (Elamipretide) is a mitochondria-targeting peptide studied for its role in cellular energy production and oxidative stress reduction. It is widely explored in research focused on mitochondrial function, fatigue, and age-related cellular decline.",
+    "sku": "BKSKU-XLSC-407",
+    "price": 85,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/92-SS-31.png",
+    "categoryIds": [
+      100021
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-XLSC-407",
+        "label": "Option 1",
+        "price": 85,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-JEKV-833",
+        "label": "Option 2",
+        "price": 300,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "slug": "94-lipo-c-without-b12",
+    "name": "Lipo-C without B12",
+    "description": "Lipo-C without B12 is a multi-compound formulation studied for its role in supporting fat metabolism, liver function, and energy utilization. It combines key lipotropic agents that assist in fat transport and breakdown, making it widely used in metabolic and weight management research.",
+    "sku": "BKSKU-QHQA-142",
+    "price": 70,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/94-Lipo-C without B12.png",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-QHQA-142",
+        "label": "Option 1",
+        "price": 70,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "slug": "95-lipo-c-with-b12",
+    "name": "Lipo-C with B12",
+    "description": "Lipo-C with B12 is an enhanced lipotropic formulation designed to support fat metabolism, energy production, and liver function. By adding Vitamin B12, this version not only assists in fat utilization but also supports energy levels, making it widely studied in metabolic and weight management research.",
+    "sku": "BKSKU-CXTK-229",
+    "price": 90,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/95-Lipo-C with B12.png",
+    "categoryIds": [
+      100019
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-CXTK-229",
+        "label": "Option 1",
+        "price": 90,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "slug": "96-b12",
+    "name": "B12",
+    "description": "Vitamin B12 (Methylcobalamin) is an active form of B12 studied for its role in energy production, nerve function, and red blood cell formation. It is widely researched for supporting metabolism, reducing fatigue, and maintaining overall cellular health.",
+    "sku": "BKSKU-XNSE-723",
+    "price": 40,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/96-B12.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-XNSE-723",
+        "label": "Option 1",
+        "price": 40,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-HWXY-433",
+        "label": "Option 2",
+        "price": 40,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "slug": "97-lemon-bottle",
+    "name": "Lemon bottle",
+    "description": "Lemon Bottle is a lipolytic formulation studied for its role in localized fat reduction and body contouring. It is commonly explored in research focused on breaking down fat deposits in targeted areas, making it a popular option in aesthetic and body-shaping models.",
+    "sku": "BKSKU-UCDK-400",
+    "price": 70,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/97-Lemon bottle.png",
+    "categoryIds": [
+      100019
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-UCDK-400",
+        "label": "Option 1",
+        "price": 70,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "slug": "98-l-carnitine",
+    "name": "L-carnitine",
+    "description": "L-Carnitine is a naturally occurring compound studied for its role in transporting fatty acids into mitochondria for energy production. It is widely researched for its involvement in fat metabolism, energy utilization, and physical performance support.",
+    "sku": "BKSKU-EGVG-894",
+    "price": 80,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/98-L-carnitine.png",
+    "categoryIds": [
+      100019
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-EGVG-894",
+        "label": "Option 1",
+        "price": 80,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-DUQX-990",
+        "label": "Option 2",
+        "price": 90,
+        "inStock": false
+      },
+      {
+        "sku": "BKSKU-NEAK-566",
+        "label": "Option 3",
+        "price": 120,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-MLUU-519",
+        "label": "Option 4",
+        "price": 150,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "slug": "99-kpv",
+    "name": "KPV",
+    "description": "KPV is a tripeptide fragment derived from α-MSH, studied for its strong anti-inflammatory and immune-modulating properties. It is widely researched for its role in reducing inflammation and supporting tissue stability, making it a key compound in recovery and skin-related models.",
+    "sku": "EMMY-CN-KP5",
+    "price": 44,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/99-KPV.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-QNQH-064",
+        "label": "Option 1",
+        "price": 69,
+        "inStock": true
+      },
+      {
+        "sku": "EMMY-CN-KP5",
+        "label": "Option 2",
+        "price": 44,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "slug": "100-vip",
+    "name": "VIP",
+    "description": "VIP (Vasoactive Intestinal Peptide) is a naturally occurring neuropeptide widely studied for its role in immune modulation, inflammation control, and neuroprotection. In research settings, it is often explored for its potential effects on cellular signaling, smooth muscle relaxation, and systemic inflammatory responses.",
+    "sku": "BKSKU-GCYQ-981",
+    "price": 85,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/100-VIP.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-GCYQ-981",
+        "label": "Option 1",
+        "price": 85,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-DGDF-514",
+        "label": "Option 2",
+        "price": 180,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "slug": "101-ara-290",
+    "name": "ARA-290",
+    "description": "ARA-290 is a synthetic peptide derived from erythropoietin (EPO), designed to retain tissue-protective and anti-inflammatory properties without stimulating red blood cell production. It is widely studied in models involving nerve repair, inflammation, and metabolic dysfunction.",
+    "sku": "BKSKU-MJSJ-049",
+    "price": 80,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/101-ARA-290.png",
+    "categoryIds": [
+      100021
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-MJSJ-049",
+        "label": "Option 1",
+        "price": 80,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "slug": "102-glutathione",
+    "name": "Glutathione",
+    "description": "Glutathione is a naturally occurring antioxidant composed of three amino acids: glutamine, cysteine, and glycine. It is widely studied for its role in cellular defense, detoxification, and oxidative stress regulation. In research settings, Glutathione is commonly used to explore liver function, skin biology, and overall cellular health.",
+    "sku": "BKSKU-TWZF-066",
+    "price": 74,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/102-Glutathione.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-TWZF-066",
+        "label": "Option 1",
+        "price": 74,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-KWSS-411",
+        "label": "Option 2",
+        "price": 94,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "slug": "103-ll-37",
+    "name": "LL-37",
+    "description": "LL-37 is a naturally occurring antimicrobial peptide belonging to the cathelicidin family. It plays a key role in innate immunity and is widely studied for its ability to combat pathogens, regulate inflammation, and support tissue repair. In research settings, LL-37 is often explored in models related to infection control, wound healing, and immune defense.",
+    "sku": "BKSKU-XEOL-432",
+    "price": 99,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/103-LL-37.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-XEOL-432",
+        "label": "Option 1",
+        "price": 99,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "slug": "104-dsip",
+    "name": "DSIP",
+    "description": "DSIP (Delta Sleep-Inducing Peptide) is a naturally occurring neuropeptide originally identified for its potential role in sleep regulation. It is widely studied in research related to circadian rhythm, stress response, and neuroendocrine balance. DSIP is often explored for its calming and regulatory effects on the central nervous system.",
+    "sku": "BKSKU-RHSI-295",
+    "price": 49,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/104-DSIP.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-RHSI-295",
+        "label": "Option 1",
+        "price": 49,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-JDHU-398",
+        "label": "Option 2",
+        "price": 75,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "slug": "105-dihexa",
+    "name": "Dihexa",
+    "description": "Dihexa is a synthetic peptide derived from angiotensin IV, widely studied for its potential role in cognitive function, memory enhancement, and neuroregeneration. In research settings, it is recognized for its strong affinity to pathways involved in synaptic growth and neural connectivity.",
+    "sku": "BKSKU-FXXX-335",
+    "price": 129,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/105-Dihexa.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-FXXX-335",
+        "label": "Option 1",
+        "price": 129,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "slug": "106-shb",
+    "name": "SHB",
+    "description": "SHB (SUPER Human Blend) is a comprehensive amino acid and nutrient-based formulation designed for advanced research into performance optimization, recovery, and metabolic support. By combining multiple functional amino acids and compounds, SHB is commonly studied for its synergistic effects on circulation, energy metabolism, and cellular repair.",
+    "sku": "BKSKU-AZJB-538",
+    "price": 140,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/106-SHB.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-AZJB-538",
+        "label": "Option 1",
+        "price": 140,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "slug": "107-hhb",
+    "name": "HHB",
+    "description": "HHB (Healthy Hair Skin Nails Blend) is a multi-nutrient formulation designed for research into skin health, hair strength, and nail integrity. Combining essential vitamins and cofactors, it is commonly studied for its role in cellular renewal, keratin support, and overall appearance-related biological processes.",
+    "sku": "BKSKU-UEMV-177",
+    "price": 140,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/107-HHB.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-UEMV-177",
+        "label": "Option 1",
+        "price": 140,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "slug": "108-bac-water",
+    "name": "BAC Water",
+    "description": "Bacteriostatic Water (BAC Water) is sterile water containing a small amount of benzyl alcohol, used in research settings as a solvent for reconstituting lyophilized peptides and compounds. It is widely utilized to maintain solution stability and reduce the risk of bacterial growth after reconstitution.",
+    "sku": "BKSKU-ERVY-538",
+    "price": 8,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/108-BAC Water.png",
+    "categoryIds": [
+      100027
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-ERVY-538",
+        "label": "Option 1",
+        "price": 8,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-BBWW-563",
+        "label": "Option 2",
+        "price": 18,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "slug": "109-aa-water",
+    "name": "AA Water",
+    "description": "AA Water (Acetic Acid Water) is a sterile aqueous solution containing a small percentage of acetic acid, commonly used in research for reconstituting peptides that require an acidic environment for proper solubility. It is particularly useful for peptides that may appear cloudy or difficult to dissolve when using standard bacteriostatic water.",
+    "sku": "BKSKU-DVDV-598",
+    "price": 10,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/109-AA Water.png",
+    "categoryIds": [
+      100027
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-DVDV-598",
+        "label": "Option 1",
+        "price": 10,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-AIWT-304",
+        "label": "Option 2",
+        "price": 20,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "slug": "110-sterile-water",
+    "name": "Sterile water",
+    "description": "Sterile Water (WA Water) is pure, sterile water without any preservatives or additives. It is commonly used in research settings for dilution, reconstitution, and laboratory preparation where a neutral, additive-free solution is required.",
+    "sku": "BKSKU-FTIZ-275",
+    "price": 10,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/110-Sterile water.png",
+    "categoryIds": [
+      100027
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-FTIZ-275",
+        "label": "Option 1",
+        "price": 10,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-ICHG-231",
+        "label": "Option 2",
+        "price": 20,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "slug": "111-retatrutide",
+    "name": "Retatrutide",
+    "description": "Retatrutide is a next-generation multi-receptor peptide studied for its effects on metabolism, appetite regulation, and energy expenditure. Unlike traditional GLP-1 compounds, Retatrutide activates GLP-1, GIP, and glucagon receptors simultaneously, making it one of the most advanced compounds in metabolic and weight-management research.",
+    "sku": "BKSKU-FCJJ-893",
+    "price": 69,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/111-Retatrutide.png",
+    "categoryIds": [
+      100019
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-FCJJ-893",
+        "label": "Option 1",
+        "price": 69,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-NQSQ-869",
+        "label": "Option 2",
+        "price": 89,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-HFLS-815",
+        "label": "Option 3",
+        "price": 149,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-MYMC-946",
+        "label": "Option 4",
+        "price": 179,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-JASZ-346",
+        "label": "Option 5",
+        "price": 234,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-NKPS-828",
+        "label": "Option 6",
+        "price": 299,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "slug": "112-tirzepatide",
+    "name": "Tirzepatide",
+    "description": "Tirzepatide is a synthetic peptide that acts as a dual agonist of the GIP and GLP-1 receptors, studied for its role in metabolic and glucose regulation. It is commonly used in preclinical models to investigate effects on insulin sensitivity and energy balance.",
+    "sku": "BKSKU-VOJM-676",
+    "price": 69,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/112-Tirzepatide.png",
+    "categoryIds": [
+      100019
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-VOJM-676",
+        "label": "Option 1",
+        "price": 69,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-SFVY-797",
+        "label": "Option 2",
+        "price": 74,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-DMUR-681",
+        "label": "Option 3",
+        "price": 84,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-YOEH-056-W3",
+        "label": "Option 4",
+        "price": 109,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-AFMS-516",
+        "label": "Option 5",
+        "price": 154,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-JWKU-472-W3",
+        "label": "Option 6",
+        "price": 209,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "slug": "113-bpc157",
+    "name": "BPC157",
+    "description": "BPC-157 is a synthetic peptide derived from a naturally occurring protein found in gastric juice. It is widely studied for its potential role in tissue repair, recovery, and protection of the gastrointestinal system, making it a popular compound in research related to healing and regenerative processes.",
+    "sku": "BKSKU-FXOO-704-W3",
+    "price": 69,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/113-BPC157.png",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-FXOO-704-W3",
+        "label": "Option 1",
+        "price": 69,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "slug": "114-mots-c",
+    "name": "MOTS-C",
+    "description": "MOTS-c is a mitochondrial-derived peptide studied for its role in metabolic regulation, energy balance, and exercise-related pathways. It is widely researched for its potential to improve metabolic flexibility, cellular energy utilization, and physical performance.",
+    "sku": "BKSKU-ZTTJ-974-W3",
+    "price": 69,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/114-MOTS-C.png",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-ZTTJ-974-W3",
+        "label": "Option 1",
+        "price": 69,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-KGYC-371",
+        "label": "Option 2",
+        "price": 119,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-JCOX-049-W3",
+        "label": "Option 3",
+        "price": 179,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "slug": "115-melanotan-2",
+    "name": "Melanotan 2",
+    "description": "Melanotan 2 is a synthetic analog of alpha-melanocyte-stimulating hormone (α-MSH), developed for research into skin pigmentation and melanocortin system activity. It is widely studied for its ability to promote melanin production and influence multiple pathways related to pigmentation and physiological responses.",
+    "sku": "BKSKU-YAZW-926",
+    "price": 59,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/115-Melanotan 2.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-YAZW-926",
+        "label": "Option 1",
+        "price": 59,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "slug": "116-dsip",
+    "name": "DSIP",
+    "description": "DSIP (Delta Sleep-Inducing Peptide) is a naturally occurring neuropeptide originally identified for its potential role in sleep regulation. It is widely studied in research related to circadian rhythm, stress response, and neuroendocrine balance. DSIP is often explored for its calming and regulatory effects on the central nervous system.",
+    "sku": "BKSKU-WVHC-805",
+    "price": 57,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/116-DSIP.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-WVHC-805",
+        "label": "Option 1",
+        "price": 57,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-JDHU-398-W3",
+        "label": "Option 2",
+        "price": 79,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "slug": "117-ghk-cu",
+    "name": "GHK-CU",
+    "description": "GHK-Cu is a copper-binding peptide naturally found in human plasma, studied for its role in tissue repair, skin regeneration, and hair-related research. It is widely explored in cosmetic and regenerative models due to its potential effects on collagen production, inflammation control, and cellular renewal.",
+    "sku": "BKSKU-FBNM-147-W3",
+    "price": 49,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/117-GHK-CU.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-FBNM-147-W3",
+        "label": "Option 1",
+        "price": 49,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-ZZJJ-654-W3",
+        "label": "Option 2",
+        "price": 69,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "slug": "118-nad",
+    "name": "NAD+",
+    "description": "NAD+ is a coenzyme found in all living cells, essential for energy production and cellular metabolism. It is widely studied for its role in mitochondrial function, DNA repair, and aging-related processes, making it a key compound in longevity and metabolic research.",
+    "sku": "BKSKU-LIPA-179",
+    "price": 74,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/118-NAD+.png",
+    "categoryIds": [
+      100019,
+      100020,
+      100021,
+      100024,
+      100025,
+      100026,
+      100027
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-LIPA-179",
+        "label": "Option 1",
+        "price": 74,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-SRGA-010-W3",
+        "label": "Option 2",
+        "price": 129,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "slug": "119-ahk-cu",
+    "name": "AHK-CU",
+    "description": "AHK-Cu is a copper-binding peptide complex studied for its role in hair growth, skin regeneration, and cellular repair. It is widely researched for its potential to support hair follicle health and improve skin condition, making it a targeted compound in cosmetic and regenerative studies.",
+    "sku": "BKSKU-KOVH-970-W3",
+    "price": 59,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/119-AHK-CU.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-KOVH-970-W3",
+        "label": "Option 1",
+        "price": 59,
+        "inStock": false
+      },
+      {
+        "sku": "BKSKU-QTNX-493-W3",
+        "label": "Option 2",
+        "price": 79,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "slug": "120-tesamorelin",
+    "name": "Tesamorelin",
+    "description": "Tesamorelin is a synthetic analog of growth hormone-releasing hormone (GHRH), studied for its ability to stimulate natural growth hormone production and influence visceral fat metabolism. It is widely researched for abdominal fat reduction, metabolic regulation, and body composition support while maintaining physiological hormone signaling.",
+    "sku": "BKSKU-NXAM-276",
+    "price": 99,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/120-Tesamorelin.png",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-NXAM-276",
+        "label": "Option 1",
+        "price": 99,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-C7YY-698",
+        "label": "Option 2",
+        "price": 169,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-LFHE-973",
+        "label": "Option 3",
+        "price": 309,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "slug": "121-5-amino-1mq",
+    "name": "5-amino-1mq",
+    "description": "5-Amino-1MQ is a small-molecule compound studied for its role in cellular metabolism and fat regulation. It is widely researched for its ability to influence energy utilization and adipose tissue development, making it a unique option in metabolic and fat-related studies.",
+    "sku": "BKSKU-TAUB-836",
+    "price": 49,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/121-5-amino-1mq.png",
+    "categoryIds": [
+      100019,
+      100020,
+      100021,
+      100024,
+      100025,
+      100026,
+      100027
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-TAUB-836",
+        "label": "Option 1",
+        "price": 49,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-OKUJ-998",
+        "label": "Option 2",
+        "price": 64,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-XKM6-120",
+        "label": "Option 3",
+        "price": 89,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "slug": "122-epithalon",
+    "name": "Epithalon",
+    "description": "Epithalon is a synthetic tetrapeptide studied for its role in cellular aging, DNA regulation, and longevity-related processes. It is widely researched for its potential to influence telomerase activity and support long-term cellular stability, making it a key compound in anti-aging research.",
+    "sku": "BKSKU-ITRA-835",
+    "price": 59,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/122-Epithalon.png",
+    "categoryIds": [
+      100021
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-ITRA-835",
+        "label": "Option 1",
+        "price": 59,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-1WPY-268",
+        "label": "Option 2",
+        "price": 159,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "slug": "123-semax",
+    "name": "Semax",
+    "description": "Semax is a synthetic peptide derived from adrenocorticotropic hormone (ACTH) fragments, studied for its role in cognitive function, focus, and neuroprotection. It is commonly explored in research related to memory, attention, and central nervous system performance.",
+    "sku": "BKSKU-8FYW-350",
+    "price": 49,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/123-Semax.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-8FYW-350",
+        "label": "Option 1",
+        "price": 49,
+        "inStock": false
+      },
+      {
+        "sku": "BKSKU-MZ1U-178",
+        "label": "Option 2",
+        "price": 74,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "slug": "124-selank",
+    "name": "Selank",
+    "description": "Selank is a synthetic peptide derived from the tuftsin sequence, studied for its role in mood regulation and anxiety-related pathways. It is commonly explored in research focused on emotional stability, stress response, and central nervous system balance.",
+    "sku": "BKSKU-YGBO-451",
+    "price": 49,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/124-Selank.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-YGBO-451",
+        "label": "Option 1",
+        "price": 49,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-KUSF-231",
+        "label": "Option 2",
+        "price": 74,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "slug": "125-kisspeptin",
+    "name": "KissPeptin",
+    "description": "KissPeptin is a regulatory peptide studied for its role in controlling the reproductive hormone axis. It acts upstream of key hormonal pathways, influencing the release of gonadotropin-releasing hormone (GnRH), making it a central component in research related to hormonal signaling and reproductive function.",
+    "sku": "BKSKU-R9XJ-584",
+    "price": 88,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/125-KissPeptin.png",
+    "categoryIds": [
+      100019,
+      100020,
+      100021,
+      100024,
+      100025,
+      100026,
+      100027
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-R9XJ-584",
+        "label": "Option 1",
+        "price": 88,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "slug": "128-tirzepatide",
+    "name": "Tirzepatide",
+    "description": "Tirzepatide is a synthetic peptide that acts as a dual agonist of the GIP and GLP-1 receptors, studied for its role in metabolic and glucose regulation. It is commonly used in preclinical models to investigate effects on insulin sensitivity and energy balance.",
+    "sku": "BKSKU-MNPA-317",
+    "price": 69,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/128-Tirzepatide.png",
+    "categoryIds": [
+      100019
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-MNPA-317",
+        "label": "Option 1",
+        "price": 69,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-EURW-324HGF",
+        "label": "Option 2",
+        "price": 74,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-IRBA-377",
+        "label": "Option 3",
+        "price": 84,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-YOEH-056-6574",
+        "label": "Option 4",
+        "price": 109,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-JPNJ-338",
+        "label": "Option 5",
+        "price": 154,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-AVET-652",
+        "label": "Option 6",
+        "price": 209,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "slug": "129-tesamorelin",
+    "name": "Tesamorelin",
+    "description": "Tesamorelin is a synthetic analog of growth hormone-releasing hormone (GHRH), studied for its ability to stimulate natural growth hormone production and influence visceral fat metabolism. It is widely researched for abdominal fat reduction, metabolic regulation, and body composition support while maintaining physiological hormone signaling.",
+    "sku": "BKSKU-C7YY-69-II52",
+    "price": 169,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/129-Tesamorelin.png",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-C7YY-69-II52",
+        "label": "Option 1",
+        "price": 169,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-ELQ6-978",
+        "label": "Option 2",
+        "price": 309,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "slug": "130-retatrutide",
+    "name": "Retatrutide",
+    "description": "Retatrutide is a next-generation multi-receptor peptide studied for its effects on metabolism, appetite regulation, and energy expenditure. Unlike traditional GLP-1 compounds, Retatrutide activates GLP-1, GIP, and glucagon receptors simultaneously, making it one of the most advanced compounds in metabolic and weight-management research.",
+    "sku": "BKSKU-AZOJ-712-PHO",
+    "price": 89,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/130-Retatrutide.png",
+    "categoryIds": [
+      100019
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-AZOJ-712-PHO",
+        "label": "Option 1",
+        "price": 89,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-GFPG-042",
+        "label": "Option 2",
+        "price": 149,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-YQME-598",
+        "label": "Option 3",
+        "price": 179,
+        "inStock": false
+      },
+      {
+        "sku": "BKSKU-7VBX-946",
+        "label": "Option 4",
+        "price": 234,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-UMWK-3ST3",
+        "label": "Option 5",
+        "price": 299,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-K5WZ-210",
+        "label": "Option 6",
+        "price": 69,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "slug": "131-tb500",
+    "name": "TB500",
+    "description": "TB-500 is a synthetic version of Thymosin Beta-4, a naturally occurring peptide found in various tissues throughout the body. It is widely studied for its role in cell migration, tissue repair, and recovery processes, making it a key compound in research focused on healing and regeneration.",
+    "sku": "BKSKU-OLMD-954",
+    "price": 84,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/131-TB500.png",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-OLMD-954",
+        "label": "Option 1",
+        "price": 84,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-OIEQ-595",
+        "label": "Option 2",
+        "price": 139,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "slug": "132-ghrp-2-acetate",
+    "name": "GHRP-2 Acetate",
+    "description": "GHRP-2 Acetate is a synthetic growth hormone-releasing peptide (GHRP) studied for its ability to strongly stimulate growth hormone secretion. It is commonly explored in research related to muscle growth, recovery, and metabolic regulation due to its potent GH-releasing effects.",
+    "sku": "BKSKU-IKCJ-686",
+    "price": 45,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/132-GHRP-2 Acetate.png",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-IKCJ-686",
+        "label": "Option 1",
+        "price": 45,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-JUTW-575",
+        "label": "Option 2",
+        "price": 65,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "slug": "133-ghrp-2-acetate",
+    "name": "GHRP-2 Acetate",
+    "description": "GHRP-2 Acetate is a synthetic growth hormone-releasing peptide (GHRP) studied for its ability to strongly stimulate growth hormone secretion. It is commonly explored in research related to muscle growth, recovery, and metabolic regulation due to its potent GH-releasing effects.",
+    "sku": "BKSKU-AYXR-599",
+    "price": 49,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/133-GHRP-2 Acetate.png",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-AYXR-599",
+        "label": "Option 1",
+        "price": 49,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-2OT6-242",
+        "label": "Option 2",
+        "price": 64,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "slug": "134-oxytocin-acetate",
+    "name": "Oxytocin Acetate",
+    "description": "Oxytocin Acetate is a synthetic form of oxytocin, a naturally occurring peptide hormone involved in social bonding, emotional regulation, and behavioral responses. It is widely studied for its effects on trust, connection, and central nervous system activity.",
+    "sku": "BKSKU-DBYB-981",
+    "price": 79,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/134-Oxytocin Acetate.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-DBYB-981",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "slug": "135-cagrilintide",
+    "name": "Cagrilintide",
+    "description": "Cagrilintide is a long‑acting acylated analogue of the pancreatic hormone amylin, designed for once‑weekly subcutaneous administration. It activates central amylin receptors to promote satiety, slow gastric emptying, and reduce food intake. In phase 2 and phase 3 trials, cagrilintide produced dose‑dependent weight loss with a predominantly gastrointestinal side‑effect profile.",
+    "sku": "BKSKU-FLGR-717",
+    "price": 99,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/135-Cagrilintide.png",
+    "categoryIds": [
+      100019
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-FLGR-717",
+        "label": "Option 1",
+        "price": 99,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-P18O-291",
+        "label": "Option 2",
+        "price": 144,
+        "inStock": false
+      },
+      {
+        "sku": "BKSKU-XXFJ-470",
+        "label": "Option 3",
+        "price": 245,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "slug": "136-glow",
+    "name": "GLOW",
+    "description": "GLOW is a multi-peptide research blend combining GHK-Cu, TB-500, and BPC-157, designed to support skin regeneration, tissue repair, and overall recovery processes. This combination targets both surface-level improvements and deeper structural repair, making it widely studied in skin health and regenerative models.",
+    "sku": "BKSKU-BMMM-173",
+    "price": 189,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/136-GLOW.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-BMMM-173",
+        "label": "Option 1",
+        "price": 189,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "slug": "138-sermorelin",
+    "name": "Sermorelin",
+    "description": "Sermorelin is a synthetic peptide that functions as a growth hormone-releasing hormone (GHRH) analog. It is widely studied for its ability to stimulate the natural production of growth hormone (GH) in research models, making it relevant in studies related to metabolism, recovery, and endocrine regulation.",
+    "sku": "BKSKU-DNRC-709",
+    "price": 74,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/138-Sermorelin.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-DNRC-709",
+        "label": "Option 1",
+        "price": 74,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-0KSG-988",
+        "label": "Option 2",
+        "price": 144,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "slug": "139-ss-31",
+    "name": "SS-31",
+    "description": "SS-31 (Elamipretide) is a mitochondria-targeting peptide studied for its role in cellular energy production and oxidative stress reduction. It is widely explored in research focused on mitochondrial function, fatigue, and age-related cellular decline.",
+    "sku": "BKSKU-VFIN-865",
+    "price": 89,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/139-SS-31.png",
+    "categoryIds": [
+      100021
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-VFIN-865",
+        "label": "Option 1",
+        "price": 89,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-PERC-299",
+        "label": "Option 2",
+        "price": 299,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "slug": "140-cjc-1295-whitout-dac",
+    "name": "CJC-1295 Whitout DAC",
+    "description": "CJC-1295 (Without DAC) is a short-acting analog of growth hormone-releasing hormone (GHRH), designed to stimulate natural pulsatile release of growth hormone. It is widely studied for its ability to mimic the body’s natural GH rhythm, making it a preferred option in research focused on physiological hormone patterns.",
+    "sku": "BKSKU-X8DG-265",
+    "price": 79,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/140-CJC-1295 Whitout DAC.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-X8DG-265",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "slug": "142-retatrutide",
+    "name": "Retatrutide",
+    "description": "Retatrutide is a next-generation multi-receptor peptide studied for its effects on metabolism, appetite regulation, and energy expenditure. Unlike traditional GLP-1 compounds, Retatrutide activates GLP-1, GIP, and glucagon receptors simultaneously, making it one of the most advanced compounds in metabolic and weight-management research.",
+    "sku": "BKSKU-D6AF-929",
+    "price": 109,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/142-Retatrutide.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-D6AF-929",
+        "label": "Option 1",
+        "price": 109,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-XGHM-522",
+        "label": "Option 2",
+        "price": 169,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-CA-Q8LB-925",
+        "label": "Option 3",
+        "price": 139,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "slug": "143-ghk-cu",
+    "name": "GHK-CU",
+    "description": "GHK-Cu is a copper-binding peptide naturally found in human plasma, studied for its role in tissue repair, skin regeneration, and hair-related research. It is widely explored in cosmetic and regenerative models due to its potential effects on collagen production, inflammation control, and cellular renewal.",
+    "sku": "BKSKU-YAFA-497",
+    "price": 54,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/143-GHK-CU.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-YAFA-497",
+        "label": "Option 1",
+        "price": 54,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-NIO2-690",
+        "label": "Option 2",
+        "price": 74,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "slug": "144-mots-c",
+    "name": "MOTS-C",
+    "description": "MOTS-c is a mitochondrial-derived peptide studied for its role in metabolic regulation, energy balance, and exercise-related pathways. It is widely researched for its potential to improve metabolic flexibility, cellular energy utilization, and physical performance.",
+    "sku": "BKSKU-3NZK-706",
+    "price": 69,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/144-MOTS-C.png",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-3NZK-706",
+        "label": "Option 1",
+        "price": 69,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "slug": "145-tirzepatide",
+    "name": "Tirzepatide",
+    "description": "Tirzepatide is a synthetic peptide that acts as a dual agonist of the GIP and GLP-1 receptors, studied for its role in metabolic and glucose regulation. It is commonly used in preclinical models to investigate effects on insulin sensitivity and energy balance.",
+    "sku": "BKSKU-GFDS-476",
+    "price": 64,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/145-Tirzepatide.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-GFDS-476",
+        "label": "Option 1",
+        "price": 64,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-HJBZ-651",
+        "label": "Option 2",
+        "price": 74,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-NAYP-451",
+        "label": "Option 3",
+        "price": 109,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-NANX-749",
+        "label": "Option 4",
+        "price": 219,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "slug": "146-bpc157",
+    "name": "BPC157",
+    "description": "BPC-157 is a synthetic peptide derived from a naturally occurring protein found in gastric juice. It is widely studied for its potential role in tissue repair, recovery, and protection of the gastrointestinal system, making it a popular compound in research related to healing and regenerative processes.",
+    "sku": "BKSKU-CA-YUTT-825",
+    "price": 49,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/146-BPC157.png",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-CA-YUTT-825",
+        "label": "Option 1",
+        "price": 49,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-QMNG-563",
+        "label": "Option 2",
+        "price": 69,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "slug": "150-pt141",
+    "name": "PT141",
+    "description": "PT-141 (Bremelanotide) is a synthetic peptide analog of α-MSH, studied for its effects on the central nervous system related to arousal and behavioral response. Unlike traditional pathways, it works through neural signaling rather than vascular mechanisms, making it a unique compound in research on libido and behavioral activation.",
+    "sku": "BKSKU-VJTO-584",
+    "price": 79,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/150-PT141.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-VJTO-584",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "slug": "151-cjc-1295-whitout-dac",
+    "name": "CJC-1295 Whitout DAC",
+    "description": "CJC-1295 (Without DAC) is a short-acting analog of growth hormone-releasing hormone (GHRH), designed to stimulate natural pulsatile release of growth hormone. It is widely studied for its ability to mimic the body’s natural GH rhythm, making it a preferred option in research focused on physiological hormone patterns.",
+    "sku": "BKSKU-QEVC-338",
+    "price": 79,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/151-CJC-1295 Whitout DAC.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-QEVC-338",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-M52Q-580",
+        "label": "Option 2",
+        "price": 144,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "slug": "152-selank",
+    "name": "Selank",
+    "description": "Selank is a synthetic peptide derived from the tuftsin sequence, studied for its role in mood regulation and anxiety-related pathways. It is commonly explored in research focused on emotional stability, stress response, and central nervous system balance.",
+    "sku": "BKSKU-UVDW-208",
+    "price": 49,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/152-Selank.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-UVDW-208",
+        "label": "Option 1",
+        "price": 49,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-DT5P-645",
+        "label": "Option 2",
+        "price": 74,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "slug": "153-semaglutide",
+    "name": "Semaglutide",
+    "description": "Semaglutide is a synthetic analog of the GLP-1 hormone studied for its effects on appetite regulation, glucose control, and metabolic function. It mimics the body’s natural incretin response and is widely researched in models related to weight management and insulin signaling.",
+    "sku": "BKSKU-DXE8-928",
+    "price": 44,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/153-Semaglutide.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-DXE8-928",
+        "label": "Option 1",
+        "price": 44,
+        "inStock": false
+      },
+      {
+        "sku": "BKSKU-ZPUT-149",
+        "label": "Option 2",
+        "price": 64,
+        "inStock": false
+      },
+      {
+        "sku": "BKSKU-NGGG-894",
+        "label": "Option 3",
+        "price": 74,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "slug": "154-ghk-cu",
+    "name": "GHK-CU",
+    "description": "GHK-Cu is a copper-binding peptide naturally found in human plasma, studied for its role in tissue repair, skin regeneration, and hair-related research. It is widely explored in cosmetic and regenerative models due to its potential effects on collagen production, inflammation control, and cellular renewal.",
+    "sku": "BKSKU-ZVFS-243",
+    "price": 49,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/154-GHK-CU.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-ZVFS-243",
+        "label": "Option 1",
+        "price": 49,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-UNUT-166",
+        "label": "Option 2",
+        "price": 69,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "slug": "155-bpc157",
+    "name": "BPC157",
+    "description": "BPC-157 is a synthetic peptide derived from a naturally occurring protein found in gastric juice. It is widely studied for its potential role in tissue repair, recovery, and protection of the gastrointestinal system, making it a popular compound in research related to healing and regenerative processes.",
+    "sku": "BKSKU-45UI-251",
+    "price": 69,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/155-BPC157.png",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-45UI-251",
+        "label": "Option 1",
+        "price": 69,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-1ORA-467",
+        "label": "Option 2",
+        "price": 49,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "slug": "156-kpv",
+    "name": "KPV",
+    "description": "KPV is a tripeptide fragment derived from α-MSH, studied for its strong anti-inflammatory and immune-modulating properties. It is widely researched for its role in reducing inflammation and supporting tissue stability, making it a key compound in recovery and skin-related models.",
+    "sku": "BKSKU-KXXU-686",
+    "price": 54,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/156-KPV.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-KXXU-686",
+        "label": "Option 1",
+        "price": 54,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-RK5P-463",
+        "label": "Option 2",
+        "price": 79,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "slug": "157-klow",
+    "name": "KLOW",
+    "description": "KLOW is an advanced multi-peptide research blend combining BPC-157, GHK-Cu, TB-500, and KPV, designed to support tissue repair, skin regeneration, and inflammation modulation. This enhanced formula builds upon traditional recovery stacks by adding KPV, making it widely studied for both regenerative and anti-inflammatory applications.",
+    "sku": "BKSKU-22NB-723",
+    "price": 194,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/157-KLOW.png",
+    "categoryIds": [
+      100025
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-22NB-723",
+        "label": "Option 1",
+        "price": 194,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "slug": "158-bpc157-tb500",
+    "name": "BPC157 + TB500",
+    "description": "BPC-157 and TB-500 are commonly combined in research to support tissue repair and recovery processes. This dual approach targets both localized healing and systemic regeneration, making it a widely studied combination for injury-related and recovery-focused models.",
+    "sku": "BKSKU-TZB0-518",
+    "price": 109,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/158-BPC157 + TB500.png",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-TZB0-518",
+        "label": "Option 1",
+        "price": 109,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-BMPJ-188",
+        "label": "Option 2",
+        "price": 189,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "slug": "159-tesamorelin",
+    "name": "Tesamorelin",
+    "description": "Tesamorelin is a synthetic analog of growth hormone-releasing hormone (GHRH), studied for its ability to stimulate natural growth hormone production and influence visceral fat metabolism. It is widely researched for abdominal fat reduction, metabolic regulation, and body composition support while maintaining physiological hormone signaling.",
+    "sku": "BKSKU-2ACU-953",
+    "price": 169,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/159-Tesamorelin.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-2ACU-953",
+        "label": "Option 1",
+        "price": 169,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "slug": "160-ipamorelin",
+    "name": "Ipamorelin",
+    "description": "Ipamorelin is a selective growth hormone secretagogue that stimulates the release of growth hormone without significantly affecting other hormones. It is widely studied for its role in promoting natural GH secretion, recovery, and metabolic support with a more controlled and targeted profile.",
+    "sku": "BKSKU-IBSK-844",
+    "price": 49,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/160-Ipamorelin.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-CFGH-834",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-IBSK-844",
+        "label": "Option 2",
+        "price": 49,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "slug": "161-nad",
+    "name": "NAD+",
+    "description": "NAD+ is a coenzyme found in all living cells, essential for energy production and cellular metabolism. It is widely studied for its role in mitochondrial function, DNA repair, and aging-related processes, making it a key compound in longevity and metabolic research.",
+    "sku": "BKSKU-IBLH-322",
+    "price": 74,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/161-NAD+.png",
+    "categoryIds": [
+      100021
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-IBLH-322",
+        "label": "Option 1",
+        "price": 74,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-TFSC-310",
+        "label": "Option 2",
+        "price": 129,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "slug": "162-mots-c",
+    "name": "MOTS-C",
+    "description": "MOTS-c is a mitochondrial-derived peptide studied for its role in metabolic regulation, energy balance, and exercise-related pathways. It is widely researched for its potential to improve metabolic flexibility, cellular energy utilization, and physical performance.",
+    "sku": "BKSKU-IPAT-243",
+    "price": 69,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/162-MOTS-C.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-IPAT-243",
+        "label": "Option 1",
+        "price": 69,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-GFSJ-320",
+        "label": "Option 2",
+        "price": 179,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "slug": "163-cjc-1295-without-dac-ipamorelin",
+    "name": "CJC-1295 without DAC + Ipamorelin",
+    "description": "CJC-1295 (Without DAC) combined with Ipamorelin is a widely studied peptide stack designed to stimulate natural growth hormone release through complementary pathways. This combination mimics physiological GH pulsation while enhancing overall hormone output, making it a popular approach in research focused on recovery, metabolism, and hormonal balance.",
+    "sku": "BKSKU-1XRS-642",
+    "price": 114,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/163-CJC-1295 without DAC + Ipamorelin.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-1XRS-642",
+        "label": "Option 1",
+        "price": 114,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-0SBO-742",
+        "label": "Option 2",
+        "price": 189,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "slug": "165-pinealon",
+    "name": "Pinealon",
+    "description": "Pinealon is a short peptide complex studied for its role in cognitive function, neuronal health, and age-related neurological changes. It is widely researched for supporting brain cell regulation, memory processes, and long-term nervous system maintenance, making it a popular compound in longevity and neuroprotection research.",
+    "sku": "BKSKU-EYRC-677",
+    "price": 89,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/165-Pinealon.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-EYRC-677",
+        "label": "Option 1",
+        "price": 89,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "slug": "166-adamax-984",
+    "name": "Adamax 984",
+    "description": "Adamax is a next-generation nootropic peptide studied for its potential effects on cognitive performance, mental clarity, memory formation, and neuroprotection. It is commonly explored in research involving brain health, learning capacity, focus enhancement, and long-term neurological resilience.",
+    "sku": "BKSKU-QBVF-190",
+    "price": 54,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/166-Adamax 984.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-QBVF-190",
+        "label": "Option 1",
+        "price": 54,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-VOUQ-602",
+        "label": "Option 2",
+        "price": 98,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "slug": "167-dsip",
+    "name": "DSIP",
+    "description": "DSIP (Delta Sleep-Inducing Peptide) is a naturally occurring neuropeptide originally identified for its potential role in sleep regulation. It is widely studied in research related to circadian rhythm, stress response, and neuroendocrine balance. DSIP is often explored for its calming and regulatory effects on the central nervous system.",
+    "sku": "BKSKU-MN1K-632",
+    "price": 79,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/167-DSIP.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-MN1K-632",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "slug": "168-semax",
+    "name": "Semax",
+    "description": "Semax is a synthetic peptide derived from adrenocorticotropic hormone (ACTH) fragments, studied for its role in cognitive function, focus, and neuroprotection. It is commonly explored in research related to memory, attention, and central nervous system performance.",
+    "sku": "BKSKU-LTLJ-220",
+    "price": 49,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/168-Semax.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-LTLJ-220",
+        "label": "Option 1",
+        "price": 49,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-QCRS-397",
+        "label": "Option 2",
+        "price": 74,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "slug": "169-pt141",
+    "name": "PT141",
+    "description": "PT-141 (Bremelanotide) is a synthetic peptide analog of α-MSH, studied for its effects on the central nervous system related to arousal and behavioral response. Unlike traditional pathways, it works through neural signaling rather than vascular mechanisms, making it a unique compound in research on libido and behavioral activation.",
+    "sku": "BKSKU-R4QA-547",
+    "price": 79,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/169-PT141.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-R4QA-547",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "slug": "170-hcg",
+    "name": "HCG",
+    "description": "HCG (Human Chorionic Gonadotropin) is a hormone that mimics the action of luteinizing hormone (LH) in the body. It is widely studied for its role in regulating hormonal balance, particularly in relation to testosterone production and reproductive system function.",
+    "sku": "BKSKU-K1QJ-553",
+    "price": 79,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/170-HCG.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-K1QJ-553",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": false
+      },
+      {
+        "sku": "BKSKU-VFOB-610",
+        "label": "Option 2",
+        "price": 144,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "slug": "171-melanotan-2",
+    "name": "Melanotan 2",
+    "description": "Melanotan 2 is a synthetic analog of alpha-melanocyte-stimulating hormone (α-MSH), developed for research into skin pigmentation and melanocortin system activity. It is widely studied for its ability to promote melanin production and influence multiple pathways related to pigmentation and physiological responses.",
+    "sku": "BKSKU-LGV8-846",
+    "price": 59,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/171-Melanotan 2.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-LGV8-846",
+        "label": "Option 1",
+        "price": 59,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "slug": "175-slu-pp-332",
+    "name": "SLU-PP-332",
+    "description": "SLU-PP-332 is a small-molecule compound studied for its role in metabolic regulation and energy expenditure. It is commonly explored for its ability to activate pathways associated with endurance, fat utilization, and mitochondrial activity, making it a novel option in metabolic research. Slight cloudiness after SLU dissolves is normal and does not affect use. Please do not purchase if you are concerned about this.",
+    "sku": "BKSKU-XGHZ-786",
+    "price": 109,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/175-SLU-PP-332.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-XGHZ-786",
+        "label": "Option 1",
+        "price": 109,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "slug": "178-tb500",
+    "name": "TB500",
+    "description": "TB-500 is a synthetic version of Thymosin Beta-4, a naturally occurring peptide found in various tissues throughout the body. It is widely studied for its role in cell migration, tissue repair, and recovery processes, making it a key compound in research focused on healing and regeneration.",
+    "sku": "BKSKU-PACQ-852",
+    "price": 139,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/178-TB500.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-PACQ-852",
+        "label": "Option 1",
+        "price": 139,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "slug": "183-ss-31",
+    "name": "SS-31",
+    "description": "SS-31 (Elamipretide) is a mitochondria-targeting peptide studied for its role in cellular energy production and oxidative stress reduction. It is widely explored in research focused on mitochondrial function, fatigue, and age-related cellular decline.",
+    "sku": "BKSKU-7W4O-447",
+    "price": 89,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/183-SS-31.png",
+    "categoryIds": [
+      100021
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-7W4O-447",
+        "label": "Option 1",
+        "price": 89,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-KFDE-821",
+        "label": "Option 2",
+        "price": 299,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "slug": "184-adamax-adamantane",
+    "name": "Adamax adamantane",
+    "description": "Adamax is a next-generation nootropic peptide studied for its potential effects on cognitive performance, mental clarity, memory formation, and neuroprotection. It is commonly explored in research involving brain health, learning capacity, focus enhancement, and long-term neurological resilience.",
+    "sku": "BKSKU-LNKJ-953",
+    "price": 154,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/184-Adamax adamantane.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-LNKJ-953",
+        "label": "Option 1",
+        "price": 154,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-90RM-119",
+        "label": "Option 2",
+        "price": 289,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "slug": "185-klow",
+    "name": "KLOW",
+    "description": "KLOW is an advanced multi-peptide research blend combining BPC-157, GHK-Cu, TB-500, and KPV, designed to support tissue repair, skin regeneration, and inflammation modulation. This enhanced formula builds upon traditional recovery stacks by adding KPV, making it widely studied for both regenerative and anti-inflammatory applications.",
+    "sku": "BKSKU-FDLS-886",
+    "price": 194,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/185-KLOW.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-FDLS-886",
+        "label": "Option 1",
+        "price": 194,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "slug": "186-bpc157-tb500",
+    "name": "BPC157 + TB500",
+    "description": "BPC-157 and TB-500 are commonly combined in research to support tissue repair and recovery processes. This dual approach targets both localized healing and systemic regeneration, making it a widely studied combination for injury-related and recovery-focused models.",
+    "sku": "BKSKU-2JS3-680",
+    "price": 109,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/186-BPC157 + TB500.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-2JS3-680",
+        "label": "Option 1",
+        "price": 109,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-JJL1-675",
+        "label": "Option 2",
+        "price": 189,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "slug": "187-hcg",
+    "name": "HCG",
+    "description": "HCG (Human Chorionic Gonadotropin) is a hormone that mimics the action of luteinizing hormone (LH) in the body. It is widely studied for its role in regulating hormonal balance, particularly in relation to testosterone production and reproductive system function.",
+    "sku": "BKSKU-E1UK-919",
+    "price": 79,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/187-HCG.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-E1UK-919",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": false
+      },
+      {
+        "sku": "BKSKU-C5EA-389",
+        "label": "Option 2",
+        "price": 144,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "slug": "188-snap-8",
+    "name": "Snap-8",
+    "description": "SNAP-8 is a synthetic peptide derived from the SNAP-25 protein, studied for its ability to reduce muscle contraction signals involved in facial expressions. It is commonly explored in cosmetic research for reducing the appearance of fine lines and expression wrinkles.",
+    "sku": "BKSKU-FKP3-573",
+    "price": 59,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/188-Snap-8.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-FKP3-573",
+        "label": "Option 1",
+        "price": 59,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "slug": "189-vip",
+    "name": "VIP",
+    "description": "VIP (Vasoactive Intestinal Peptide) is a naturally occurring neuropeptide widely studied for its role in immune modulation, inflammation control, and neuroprotection. In research settings, it is often explored for its potential effects on cellular signaling, smooth muscle relaxation, and systemic inflammatory responses.",
+    "sku": "BKSKU-RXIQ-452",
+    "price": 94,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/189-VIP.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-RXIQ-452",
+        "label": "Option 1",
+        "price": 94,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-XRDW-371",
+        "label": "Option 2",
+        "price": 154,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "slug": "190-cjc-1295-without-dac-ipamorelin",
+    "name": "CJC-1295 without DAC + Ipamorelin",
+    "description": "CJC-1295 (Without DAC) combined with Ipamorelin is a widely studied peptide stack designed to stimulate natural growth hormone release through complementary pathways. This combination mimics physiological GH pulsation while enhancing overall hormone output, making it a popular approach in research focused on recovery, metabolism, and hormonal balance.",
+    "sku": "BKSKU-CGYX-261",
+    "price": 114,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/190-CJC-1295 without DAC + Ipamorelin.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-CGYX-261",
+        "label": "Option 1",
+        "price": 114,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-NVYF-513",
+        "label": "Option 2",
+        "price": 189,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "slug": "191-ara-290",
+    "name": "ARA-290",
+    "description": "ARA-290 is a synthetic peptide derived from erythropoietin (EPO), designed to retain tissue-protective and anti-inflammatory properties without stimulating red blood cell production. It is widely studied in models involving nerve repair, inflammation, and metabolic dysfunction.",
+    "sku": "BKSKU-9FID-121",
+    "price": 89,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/191-ARA-290.png",
+    "categoryIds": [
+      100021
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-9FID-121",
+        "label": "Option 1",
+        "price": 89,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "slug": "192-dihexa",
+    "name": "Dihexa",
+    "description": "Dihexa is a synthetic peptide derived from angiotensin IV, widely studied for its potential role in cognitive function, memory enhancement, and neuroregeneration. In research settings, it is recognized for its strong affinity to pathways involved in synaptic growth and neural connectivity.",
+    "sku": "BKSKU-MQIF-597",
+    "price": 139,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/192-Dihexa.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-MQIF-597",
+        "label": "Option 1",
+        "price": 139,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "slug": "193-lipo-c-with-b12",
+    "name": "Lipo-C with B12",
+    "description": "Lipo-C with B12 is an enhanced lipotropic formulation designed to support fat metabolism, energy production, and liver function. By adding Vitamin B12, this version not only assists in fat utilization but also supports energy levels, making it widely studied in metabolic and weight management research.",
+    "sku": "BKSKU-210Q-661",
+    "price": 99,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/193-Lipo-C with B12.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-210Q-661",
+        "label": "Option 1",
+        "price": 99,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "slug": "194-klow",
+    "name": "KLOW",
+    "description": "KLOW is an advanced multi-peptide research blend combining BPC-157, GHK-Cu, TB-500, and KPV, designed to support tissue repair, skin regeneration, and inflammation modulation. This enhanced formula builds upon traditional recovery stacks by adding KPV, making it widely studied for both regenerative and anti-inflammatory applications.",
+    "sku": "BKSKU-F32E-675",
+    "price": 194,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/194-KLOW.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-F32E-675",
+        "label": "Option 1",
+        "price": 194,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "slug": "196-cjc-1295-without-dac-ipamorelin",
+    "name": "CJC-1295 without DAC + Ipamorelin",
+    "description": "CJC-1295 (Without DAC) combined with Ipamorelin is a widely studied peptide stack designed to stimulate natural growth hormone release through complementary pathways. This combination mimics physiological GH pulsation while enhancing overall hormone output, making it a popular approach in research focused on recovery, metabolism, and hormonal balance.",
+    "sku": "BKSKU-VCZX-166",
+    "price": 114,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/196-CJC-1295 without DAC + Ipamorelin.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-VCZX-166",
+        "label": "Option 1",
+        "price": 114,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "slug": "197-kpv",
+    "name": "KPV",
+    "description": "KPV is a tripeptide fragment derived from α-MSH, studied for its strong anti-inflammatory and immune-modulating properties. It is widely researched for its role in reducing inflammation and supporting tissue stability, making it a key compound in recovery and skin-related models.",
+    "sku": "BKSKU-NO2Q-314",
+    "price": 79,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/197-KPV.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-NO2Q-314",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "slug": "198-vesugen",
+    "name": "Vesugen",
+    "description": "Vesugen is a short peptide complex studied for its role in supporting vascular health and cellular regulation. It is commonly explored in research focused on cardiovascular function, tissue regeneration, and age-related changes in vascular systems.",
+    "sku": "BKSKU-WS1G-915",
+    "price": 114,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/198-Vesugen.png",
+    "categoryIds": [
+      100019,
+      100020,
+      100021,
+      100024,
+      100025,
+      100026,
+      100027
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-WS1G-915",
+        "label": "Option 1",
+        "price": 114,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-KPDR-688",
+        "label": "Option 2",
+        "price": 168,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "slug": "199-aod9604",
+    "name": "AOD9604",
+    "description": "AOD9604 is a modified fragment of human growth hormone (HGH), specifically developed to target fat metabolism. It is widely studied for its ability to stimulate fat breakdown while minimizing effects on growth-related pathways, making it a focused option in fat loss research.",
+    "sku": "BKSKU-9KDL-625",
+    "price": 109,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/199-AOD9604.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-9KDL-625",
+        "label": "Option 1",
+        "price": 109,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "slug": "200-cortagen",
+    "name": "Cortagen",
+    "description": "Cortagen is a short peptide complex studied for its role in cognitive function and neuronal regulation. It is commonly explored in research related to memory, focus, and central nervous system support, particularly in models involving age-related cognitive changes.",
+    "sku": "BKSKU-BHOK-585",
+    "price": 114,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/200-Cortagen.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-BHOK-585",
+        "label": "Option 1",
+        "price": 114,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "slug": "201-lipo-c-without-b12",
+    "name": "Lipo-C without B12",
+    "description": "Lipo-C without B12 is a multi-compound formulation studied for its role in supporting fat metabolism, liver function, and energy utilization. It combines key lipotropic agents that assist in fat transport and breakdown, making it widely used in metabolic and weight management research.",
+    "sku": "BKSKU-RYA3-901",
+    "price": 79,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/201-Lipo-C without B12.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-RYA3-901",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "slug": "202-glutathione",
+    "name": "Glutathione",
+    "description": "Glutathione is a naturally occurring antioxidant composed of three amino acids: glutamine, cysteine, and glycine. It is widely studied for its role in cellular defense, detoxification, and oxidative stress regulation. In research settings, Glutathione is commonly used to explore liver function, skin biology, and overall cellular health.",
+    "sku": "BKSKU-HBDW-776",
+    "price": 74,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/202-Glutathione.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-HBDW-776",
+        "label": "Option 1",
+        "price": 74,
+        "inStock": false
+      },
+      {
+        "sku": "BKSKU-XSXM-631",
+        "label": "Option 2",
+        "price": 94,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "slug": "203-melanotan-2",
+    "name": "Melanotan 2",
+    "description": "Melanotan 2 is a synthetic analog of alpha-melanocyte-stimulating hormone (α-MSH), developed for research into skin pigmentation and melanocortin system activity. It is widely studied for its ability to promote melanin production and influence multiple pathways related to pigmentation and physiological responses.",
+    "sku": "BKSKU-RLLG-153",
+    "price": 59,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/203-Melanotan 2.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-RLLG-153",
+        "label": "Option 1",
+        "price": 59,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "slug": "206-melanotan-1",
+    "name": "Melanotan 1",
+    "description": "Melanotan 1 is a synthetic peptide analog of alpha-melanocyte-stimulating hormone (α-MSH), studied for its ability to stimulate melanin production in the skin. It is commonly researched for its role in pigmentation, UV response, and skin protection mechanisms.",
+    "sku": "BKSKU-CVI0-381",
+    "price": 59,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/206-Melanotan 1.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-CVI0-381",
+        "label": "Option 1",
+        "price": 59,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "slug": "207-cagrilintide",
+    "name": "Cagrilintide",
+    "description": "Cagrilintide is a long‑acting acylated analogue of the pancreatic hormone amylin, designed for once‑weekly subcutaneous administration. It activates central amylin receptors to promote satiety, slow gastric emptying, and reduce food intake. In phase 2 and phase 3 trials, cagrilintide produced dose‑dependent weight loss with a predominantly gastrointestinal side‑effect profile.",
+    "sku": "BKSKU-OGUJ-815",
+    "price": 99,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/207-Cagrilintide.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-OGUJ-815",
+        "label": "Option 1",
+        "price": 99,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-GKIC-106",
+        "label": "Option 2",
+        "price": 144,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "slug": "208-glow",
+    "name": "GLOW",
+    "description": "GLOW is a multi-peptide research blend combining GHK-Cu, TB-500, and BPC-157, designed to support skin regeneration, tissue repair, and overall recovery processes. This combination targets both surface-level improvements and deeper structural repair, making it widely studied in skin health and regenerative models.",
+    "sku": "BKSKU-ZJOQ-248",
+    "price": 189,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/208-GLOW.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-ZJOQ-248",
+        "label": "Option 1",
+        "price": 189,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "slug": "209-snap-8",
+    "name": "Snap-8",
+    "description": "SNAP-8 is a synthetic peptide derived from the SNAP-25 protein, studied for its ability to reduce muscle contraction signals involved in facial expressions. It is commonly explored in cosmetic research for reducing the appearance of fine lines and expression wrinkles.",
+    "sku": "BKSKU-VGHM-781",
+    "price": 59,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/209-Snap-8.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-VGHM-781",
+        "label": "Option 1",
+        "price": 59,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "slug": "210-hcg",
+    "name": "HCG",
+    "description": "HCG (Human Chorionic Gonadotropin) is a hormone that mimics the action of luteinizing hormone (LH) in the body. It is widely studied for its role in regulating hormonal balance, particularly in relation to testosterone production and reproductive system function.",
+    "sku": "BKSKU-CGMR-802",
+    "price": 79,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/210-HCG.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-CGMR-802",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "slug": "211-sermorelin",
+    "name": "Sermorelin",
+    "description": "Sermorelin is a synthetic peptide that functions as a growth hormone-releasing hormone (GHRH) analog. It is widely studied for its ability to stimulate the natural production of growth hormone (GH) in research models, making it relevant in studies related to metabolism, recovery, and endocrine regulation.",
+    "sku": "BKSKU-QBHD-185",
+    "price": 74,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/211-Sermorelin.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-QBHD-185",
+        "label": "Option 1",
+        "price": 74,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-HR07-568",
+        "label": "Option 2",
+        "price": 144,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "slug": "212-eloralintide",
+    "name": "Eloralintide",
+    "description": "Eloralintide is a long-acting amylin receptor agonist studied for its role in appetite regulation, energy balance, and metabolic health. It is commonly explored in obesity and weight management research due to its potential to reduce food intake and support sustained metabolic control.",
+    "sku": "BKSKU-KHPM-994",
+    "price": 175,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/212-Eloralintide.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-KHPM-994",
+        "label": "Option 1",
+        "price": 175,
+        "inStock": false
+      },
+      {
+        "sku": "BKSKU-BZWD-192",
+        "label": "Option 2",
+        "price": 330,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "slug": "213-cartalax",
+    "name": "Cartalax",
+    "description": "Cartalax is a synthetic peptide researched for its potential role in supporting cartilage health, joint repair, and connective tissue regeneration. It has been investigated for its ability to promote chondrocyte function, maintain cartilage integrity, and support musculoskeletal health in preclinical studies.",
+    "sku": "BKSKU-THWK-077",
+    "price": 140,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/213-Cartalax.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-THWK-077",
+        "label": "Option 1",
+        "price": 140,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "slug": "214-adamax-984",
+    "name": "Adamax 984",
+    "description": "Adamax is a next-generation nootropic peptide studied for its potential effects on cognitive performance, mental clarity, memory formation, and neuroprotection. It is commonly explored in research involving brain health, learning capacity, focus enhancement, and long-term neurological resilience.",
+    "sku": "BKSKU-1NCZ-793",
+    "price": 64,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/214-Adamax 984.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-1NCZ-793",
+        "label": "Option 1",
+        "price": 64,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-DM5N-306",
+        "label": "Option 2",
+        "price": 108,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "slug": "215-ipamorelin",
+    "name": "Ipamorelin",
+    "description": "Ipamorelin is a selective growth hormone secretagogue that stimulates the release of growth hormone without significantly affecting other hormones. It is widely studied for its role in promoting natural GH secretion, recovery, and metabolic support with a more controlled and targeted profile.",
+    "sku": "BKSKU-ZBFC-218",
+    "price": 59,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/215-Ipamorelin.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-ZBFC-218",
+        "label": "Option 1",
+        "price": 59,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-7QVI-645",
+        "label": "Option 2",
+        "price": 84,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "slug": "216-thymalin",
+    "name": "Thymalin",
+    "description": "Thymalin is a peptide complex derived from thymus gland extracts, widely studied for its role in immune system regulation, cellular repair, and aging-related processes. It is commonly explored in research models focused on immune support and systemic regeneration.",
+    "sku": "BKSKU-QMAO-716",
+    "price": 79,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/216-Thymalin.png",
+    "categoryIds": [
+      100021
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-QMAO-716",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "slug": "217-pinealon",
+    "name": "Pinealon",
+    "description": "Pinealon is a short peptide complex studied for its role in cognitive function, neuronal health, and age-related neurological changes. It is widely researched for supporting brain cell regulation, memory processes, and long-term nervous system maintenance, making it a popular compound in longevity and neuroprotection research.",
+    "sku": "BKSKU-TJ8C-486",
+    "price": 89,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/217-Pinealon.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-TJ8C-486",
+        "label": "Option 1",
+        "price": 89,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "slug": "218-ghrp-2-acetate",
+    "name": "GHRP-2 Acetate",
+    "description": "GHRP-2 Acetate is a synthetic growth hormone-releasing peptide (GHRP) studied for its ability to strongly stimulate growth hormone secretion. It is commonly explored in research related to muscle growth, recovery, and metabolic regulation due to its potent GH-releasing effects.",
+    "sku": "BKSKU-CVTG-199",
+    "price": 64,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/218-GHRP-2 Acetate.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-CVTG-199",
+        "label": "Option 1",
+        "price": 64,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "slug": "219-ghrp-6-acetate",
+    "name": "GHRP-6 Acetate",
+    "description": "GHRP-2 Acetate is a synthetic growth hormone-releasing peptide (GHRP) studied for its ability to strongly stimulate growth hormone secretion. It is commonly explored in research related to muscle growth, recovery, and metabolic regulation due to its potent GH-releasing effects.",
+    "sku": "BKSKU-CUYN-872",
+    "price": 64,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/219-GHRP-6 Acetate.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-CUYN-872",
+        "label": "Option 1",
+        "price": 64,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "slug": "220-5-amino-1mq",
+    "name": "5-amino-1mq",
+    "description": "5-Amino-1MQ is a small-molecule compound studied for its role in cellular metabolism and fat regulation. It is widely researched for its ability to influence energy utilization and adipose tissue development, making it a unique option in metabolic and fat-related studies.",
+    "sku": "BKSKU-OS25-598",
+    "price": 49,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/220-5-amino-1mq.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-OS25-598",
+        "label": "Option 1",
+        "price": 49,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-WGFZ-182",
+        "label": "Option 2",
+        "price": 64,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-DINV-593",
+        "label": "Option 3",
+        "price": 89,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "slug": "221-oxytocin-acetate",
+    "name": "Oxytocin Acetate",
+    "description": "Oxytocin Acetate is a synthetic form of oxytocin, a naturally occurring peptide hormone involved in social bonding, emotional regulation, and behavioral responses. It is widely studied for its effects on trust, connection, and central nervous system activity.",
+    "sku": "BKSKU-K0AA-872",
+    "price": 99,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/221-Oxytocin Acetate.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-K0AA-872",
+        "label": "Option 1",
+        "price": 99,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "slug": "222-tesamorelin-ipamorelin",
+    "name": "Tesamorelin + Ipamorelin",
+    "description": "Tesamorelin + Ipamorelin is a dual-peptide research blend available as 5mg Tesamorelin + 5mg Ipamorelin per vial and 10mg Tesamorelin + 10mg Ipamorelin per vial, supplied in boxes of 10 vials.",
+    "sku": "BKSKU-ZGVM-735",
+    "price": 149,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/222-Tesamorelin + Ipamorelin.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-ZGVM-735",
+        "label": "Option 1",
+        "price": 149,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-0LGU-154",
+        "label": "Option 2",
+        "price": 239,
+        "inStock": true
+      },
+      {
+        "sku": "EMMY-CN-TI15",
+        "label": "Option 3",
+        "price": 199,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "slug": "223-semax-selank",
+    "name": "Semax + Selank",
+    "description": "Semax + Selank is a dual-peptide research blend available as 5mg Semax + 5mg Selank per vial and 10mg Semax + 10mg Selank per vial, supplied in boxes of 10 vials.",
+    "sku": "BKSKU-R0H0-928",
+    "price": 139,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/223-Semax + Selank.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-R0H0-928",
+        "label": "Option 1",
+        "price": 139,
+        "inStock": true
+      },
+      {
+        "sku": "EMMY-CN-SKX10",
+        "label": "Option 2",
+        "price": 99,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "slug": "224-foxo4-dri",
+    "name": "FOXO4-DRI",
+    "description": "FOXO4-DRI is an all-D retro-inverso research peptide studied in preclinical senescence models for its ability to disrupt the FOXO4-p53 interaction.",
+    "sku": "BKSKU-XAOM-649",
+    "price": 370,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/224-FOXO4-DRI.png",
+    "categoryIds": [
+      100021
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-XAOM-649",
+        "label": "Option 1",
+        "price": 370,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "slug": "225-relaxation-pm-rp226",
+    "name": "Relaxation PM (RP226)",
+    "description": "PR226 is a proprietary liquid research formulation supplied in 10ml vials for controlled laboratory, analytical, and formulation studies.",
+    "sku": "BKSKU-04HO-793",
+    "price": 140,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/225-Relaxation PM (RP226).png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-04HO-793",
+        "label": "Option 1",
+        "price": 140,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "slug": "226-lipo-c-fat-blaster",
+    "name": "Lipo-C [FAT BLASTER]",
+    "description": "LC526 is a proprietary liquid research formulation supplied in 10ml vials for controlled laboratory, analytical, and formulation studies.",
+    "sku": "BKSKU-I0GM-990",
+    "price": 149,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/226-Lipo-C [FAT BLASTER].png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-I0GM-990",
+        "label": "Option 1",
+        "price": 149,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "slug": "228-peg-mgf",
+    "name": "PEG MGF",
+    "description": "PEG MGF is a pegylated research analogue associated with mechano growth factor, an IGF-1 splice-variant product studied in cellular growth, repair, and recovery-related models.",
+    "sku": "BKSKU-KBWD-941",
+    "price": 95,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/228-PEG MGF.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-KBWD-941",
+        "label": "Option 1",
+        "price": 95,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "slug": "229-hexarelin-acetate",
+    "name": "Hexarelin Acetate",
+    "description": "Hexarelin Acetate is a synthetic growth-hormone secretagogue research peptide studied as an agonist of the ghrelin/growth-hormone secretagogue receptor.",
+    "sku": "BKSKU-OICM-117",
+    "price": 110,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/229-Hexarelin Acetate.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-OICM-117",
+        "label": "Option 1",
+        "price": 110,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "slug": "230-adipotide-ftpp",
+    "name": "Adipotide/FTPP",
+    "description": "Adipotide, also described as a fat-targeted proapoptotic peptide (FTPP), is an experimental research peptide studied in preclinical adipose-vasculature targeting models.",
+    "sku": "BKSKU-Y9IV-538",
+    "price": 160,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/230-Adipotide_FTPP.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-Y9IV-538",
+        "label": "Option 1",
+        "price": 160,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "slug": "231-ghrp-6-acetate",
+    "name": "GHRP-6 Acetate",
+    "description": "GHRP-6 Acetate is a synthetic growth-hormone secretagogue studied in preclinical models of ghrelin-receptor signaling, growth-hormone release, and metabolic response.",
+    "sku": "BKSKU-Q3WM-391",
+    "price": 45,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/231-GHRP-6 Acetate.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-Q3WM-391",
+        "label": "Option 1",
+        "price": 45,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-4GSH-766",
+        "label": "Option 2",
+        "price": 65,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "slug": "232-ace-031",
+    "name": "ACE-031",
+    "description": "ACE-031 is a soluble activin receptor type IIB research construct studied in models of myostatin and activin-family signaling, muscle growth, and tissue regulation.",
+    "sku": "BKSKU-Z2VX-030",
+    "price": 79,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/232-ACE-031.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-Z2VX-030",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "slug": "233-gonadorelin-acetate",
+    "name": "Gonadorelin Acetate",
+    "description": "Gonadorelin Acetate is a synthetic form of gonadotropin-releasing hormone (GnRH) studied in laboratory models of pituitary signaling and reproductive-hormone regulation.",
+    "sku": "BKSKU-RA7X-107",
+    "price": 95,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/233-Gonadorelin Acetate.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-RA7X-107",
+        "label": "Option 1",
+        "price": 95,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "slug": "234-p21-p021",
+    "name": "P21 (P021)",
+    "description": "P21 (P021) is a synthetic research peptide studied in preclinical models related to neurotrophic signaling, neuronal plasticity, and cognitive function.",
+    "sku": "BKSKU-HQOB-622",
+    "price": 290,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/234-P21 (P021).png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-HQOB-622",
+        "label": "Option 1",
+        "price": 290,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "slug": "235-mgf",
+    "name": "MGF",
+    "description": "MGF is a synthetic research peptide associated with the mechano growth factor region of an IGF-1 splice variant and is studied in laboratory models of cellular repair, growth signaling, and recovery-related pathways.",
+    "sku": "BKSKU-AW6A-328",
+    "price": 79,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/235-MGF.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-AW6A-328",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "slug": "236-kpv",
+    "name": "KPV",
+    "description": "KPV is a tripeptide fragment derived from α-MSH, studied for its strong anti-inflammatory and immune-modulating properties. It is widely researched for its role in reducing inflammation and supporting tissue stability, making it a key compound in recovery and skin-related models.",
+    "sku": "BKSKU-CA-X6ME-163",
+    "price": 79,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/236-KPV.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-CA-X6ME-163",
+        "label": "Option 1",
+        "price": 79,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "slug": "237-ss-31",
+    "name": "SS-31",
+    "description": "SS-31 (Elamipretide) is a mitochondria-targeting peptide studied for its role in cellular energy production and oxidative stress reduction. It is widely explored in research focused on mitochondrial function, fatigue, and age-related cellular decline.",
+    "sku": "BKSKU-CA-9RJR-670",
+    "price": 89,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/237-SS-31.png",
+    "categoryIds": [
+      100021
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-CA-9RJR-670",
+        "label": "Option 1",
+        "price": 89,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "slug": "238-5-amino-1mq",
+    "name": "5-amino-1mq",
+    "description": "5-Amino-1MQ is a small-molecule compound studied for its role in cellular metabolism and fat regulation. It is widely researched for its ability to influence energy utilization and adipose tissue development, making it a unique option in metabolic and fat-related studies.",
+    "sku": "BKSKU-CA-XHOC-837",
+    "price": 49,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/238-5-amino-1mq.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-CA-XHOC-837",
+        "label": "Option 1",
+        "price": 49,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-CA-YLXT-286",
+        "label": "Option 2",
+        "price": 64,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "slug": "239-igf-1-lr3",
+    "name": "IGF-1 LR3",
+    "description": "IGF-1 LR3 (Insulin-like Growth Factor-1 Long R3) is a modified version of IGF-1 with an extended half-life and enhanced stability. It is widely studied for its role in muscle growth, cellular repair, and anabolic processes, making it a key compound in growth and performance-related research.",
+    "sku": "BKSKU-Z2KX-246",
+    "price": 59,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/239-IGF-1 LR3.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-Z2KX-246",
+        "label": "Option 1",
+        "price": 59,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-M8JW-393",
+        "label": "Option 2",
+        "price": 229,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "slug": "240-gonadorelin-acetate",
+    "name": "Gonadorelin Acetate",
+    "description": "Gonadorelin Acetate is a synthetic form of gonadotropin-releasing hormone (GnRH) studied in laboratory models of pituitary signaling and reproductive-hormone regulation.",
+    "sku": "BKSKU-RTYT-373",
+    "price": 104,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/240-Gonadorelin Acetate.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-RTYT-373",
+        "label": "Option 1",
+        "price": 104,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "slug": "241-eloralintide",
+    "name": "Eloralintide",
+    "description": "Eloralintide is a long-acting amylin receptor agonist studied for its role in appetite regulation, energy balance, and metabolic health. It is commonly explored in obesity and weight management research due to its potential to reduce food intake and support sustained metabolic control.",
+    "sku": "BKSKU-KHPM-994-W3-H0NT",
+    "price": 184,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/241-Eloralintide.png",
+    "categoryIds": [
+      100019,
+      100020,
+      100021,
+      100024,
+      100025,
+      100026,
+      100027
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-KHPM-994-W3-H0NT",
+        "label": "Option 1",
+        "price": 184,
+        "inStock": true
+      },
+      {
+        "sku": "BKSKU-BZWD-192-W3-6OAM",
+        "label": "Option 2",
+        "price": 339,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "slug": "242-bac-water",
+    "name": "BAC Water",
+    "description": "Bacteriostatic Water (BAC Water) is sterile water containing a small amount of benzyl alcohol, used in research settings as a solvent for reconstituting lyophilized peptides and compounds. It is widely utilized to maintain solution stability and reduce the risk of bacterial growth after reconstitution.",
+    "sku": "BKSKU-ERVY-538-W3-INVQ",
+    "price": 18,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/242-BAC Water.png",
+    "categoryIds": [
+      100019,
+      100020,
+      100021,
+      100024,
+      100025,
+      100026,
+      100027
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-ERVY-538-W3-INVQ",
+        "label": "Option 1",
+        "price": 18,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "slug": "243-retatrutide-tirzepatide",
+    "name": "Retatrutide + Tirzepatide",
+    "description": "Each vial contains 10mg Retatrutide + 20mg Tirzepatide. This dual-component research blend is supplied as 10 vials per box for laboratory studies of complementary incretin and metabolic signaling pathways.",
+    "sku": "EMMY-CN-RTT1020",
+    "price": 199,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/243-Retatrutide + Tirzepatide.png",
+    "categoryIds": [
+      100019
+    ],
+    "variants": [
+      {
+        "sku": "EMMY-CN-RTT1020",
+        "label": "Option 1",
+        "price": 199,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "slug": "244-retatrutide-double-chamber-cartridge",
+    "name": "Retatrutide Double Chamber Cartridge",
+    "description": "Each double-chamber cartridge contains the selected amount of Retatrutide (10mg or 20mg) in 4ml solution. Each box contains 5 cartridges for laboratory research and analytical work.",
+    "sku": "EMMY-CN-RT10DC",
+    "price": 69,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/244-Retatrutide Double Chamber Cartridge.jpeg",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "EMMY-CN-RT10DC",
+        "label": "Option 1",
+        "price": 69,
+        "inStock": false
+      },
+      {
+        "sku": "EMMY-CN-RT20DC",
+        "label": "Option 2",
+        "price": 108,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "slug": "245-nad-double-chamber-cartridge",
+    "name": "NAD+ Double Chamber Cartridge",
+    "description": "Each double-chamber cartridge contains 100mg NAD+ in 4ml solution. Each box contains 5 cartridges for laboratory studies of cellular energy and redox pathways.",
+    "sku": "EMMY-CN-NJ100",
+    "price": 55,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/245-NAD+ Double Chamber Cartridge.jpeg",
+    "categoryIds": [
+      100021
+    ],
+    "variants": [
+      {
+        "sku": "EMMY-CN-NJ100",
+        "label": "Option 1",
+        "price": 55,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "slug": "246-retatrutide-cagrilintide",
+    "name": "Retatrutide + Cagrilintide",
+    "description": "Available in two 10-vial research specifications: 25mg Retatrutide + 5mg Cagrilintide per vial, or 12.5mg Retatrutide + 2.5mg Cagrilintide per vial.",
+    "sku": "EMMY-CN-RC255",
+    "price": 289,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/246-Retatrutide + Cagrilintide.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "EMMY-CN-RC255",
+        "label": "Option 1",
+        "price": 289,
+        "inStock": true
+      },
+      {
+        "sku": "EMMY-CN-RC12525",
+        "label": "Option 2",
+        "price": 169,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "slug": "247-selank-semax-dsip",
+    "name": "Selank + Semax + DSIP",
+    "description": "Each vial contains 10mg Selank + 10mg Semax + 10mg DSIP. This three-component research blend is supplied as 10 vials per box for controlled neuropeptide studies.",
+    "sku": "EMMY-CN-NEUROX",
+    "price": 269,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/247-Selank + Semax + DSIP.png",
+    "categoryIds": [
+      100024
+    ],
+    "variants": [
+      {
+        "sku": "EMMY-CN-NEUROX",
+        "label": "Option 1",
+        "price": 269,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "slug": "248-nad-mots-c-5-amino-1mq",
+    "name": "NAD + MOTS-C + 5-amino-1mq",
+    "description": "Each vial contains 100mg NAD + 10mg MOTS-C + 10mg 5-amino-1mq. This three-component research blend is supplied as 10 vials per box for cellular-energy and metabolic studies.",
+    "sku": "EMMY-CN-NM5A120",
+    "price": 159,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/248-NAD + MOTS-C + 5-amino-1mq.png",
+    "categoryIds": [
+      100021
+    ],
+    "variants": [
+      {
+        "sku": "EMMY-CN-NM5A120",
+        "label": "Option 1",
+        "price": 159,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "slug": "249-tb500-bpc-157-cartalax",
+    "name": "TB500 + BPC-157 + Cartalax",
+    "description": "Each vial contains 10mg TB500 + 10mg BPC-157 + 10mg Cartalax. This three-component research blend is supplied as 10 vials per box for tissue and extracellular-matrix research.",
+    "sku": "EMMY-CN-TBCX30",
+    "price": 279,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/249-TB500 + BPC-157 + Cartalax.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "EMMY-CN-TBCX30",
+        "label": "Option 1",
+        "price": 279,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "slug": "250-cartalax",
+    "name": "Cartalax",
+    "description": "Cartalax is a synthetic peptide researched for its potential role in supporting cartilage health, joint repair, and connective tissue regeneration. It has been investigated for its ability to promote chondrocyte function, maintain cartilage integrity, and support musculoskeletal health in preclinical studies.",
+    "sku": "BKSKU-ZJGI-795",
+    "price": 149,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/250-Cartalax.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-ZJGI-795",
+        "label": "Option 1",
+        "price": 149,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "slug": "251-pe-22-28",
+    "name": "PE-22-28",
+    "description": "PE-22-28 is a synthetic peptide derived from the spadin sequence, studied for its role in mood regulation and neurobiological pathways. It is commonly explored in research related to emotional balance, stress response, and central nervous system activity.",
+    "sku": "BKSKU-CWSW-458",
+    "price": 89,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/251-PE-22-28.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-CWSW-458",
+        "label": "Option 1",
+        "price": 89,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "slug": "252-epithalon",
+    "name": "Epithalon",
+    "description": "Epithalon is a synthetic tetrapeptide studied for its role in cellular aging, DNA regulation, and longevity-related processes. It is widely researched for its potential to influence telomerase activity and support long-term cellular stability, making it a key compound in anti-aging research.",
+    "sku": "BKSKU-D8GU-426",
+    "price": 59,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/252-Epithalon.png",
+    "categoryIds": [
+      100021
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-D8GU-426",
+        "label": "Option 1",
+        "price": 59,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "slug": "253-thymalin",
+    "name": "Thymalin",
+    "description": "Thymalin is a peptide complex derived from thymus gland extracts, widely studied for its role in immune system regulation, cellular repair, and aging-related processes. It is commonly explored in research models focused on immune support and systemic regeneration.",
+    "sku": "BKSKU-JR2J-263",
+    "price": 59,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/253-Thymalin.png",
+    "categoryIds": [
+      100021
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-JR2J-263",
+        "label": "Option 1",
+        "price": 59,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "slug": "254-vesugen",
+    "name": "Vesugen",
+    "description": "Vesugen is a short peptide complex studied for its role in supporting vascular health and cellular regulation. It is commonly explored in research focused on cardiovascular function, tissue regeneration, and age-related changes in vascular systems.",
+    "sku": "BKSKU-MR1Q-405",
+    "price": 114,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/254-Vesugen.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-MR1Q-405",
+        "label": "Option 1",
+        "price": 114,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "slug": "255-tb500",
+    "name": "TB500",
+    "description": "TB-500 is a synthetic version of Thymosin Beta-4, a naturally occurring peptide found in various tissues throughout the body. It is widely studied for its role in cell migration, tissue repair, and recovery processes, making it a key compound in research focused on healing and regeneration.",
+    "sku": "BKSKU-WQGA-401",
+    "price": 139,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/255-TB500.png",
+    "categoryIds": [],
+    "variants": [
+      {
+        "sku": "BKSKU-WQGA-401",
+        "label": "Option 1",
+        "price": 139,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "slug": "256-semaglutide",
+    "name": "Semaglutide",
+    "description": "Semaglutide is a synthetic analog of the GLP-1 hormone studied for its effects on appetite regulation, glucose control, and metabolic function. It mimics the body’s natural incretin response and is widely researched in models related to weight management and insulin signaling.",
+    "sku": "BKSKU-FD8C-929",
+    "price": 88,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/256-Semaglutide.png",
+    "categoryIds": [
+      100019
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-FD8C-929",
+        "label": "Option 1",
+        "price": 88,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "slug": "257-bpc157-tb500",
+    "name": "BPC157 + TB500",
+    "description": "BPC-157 and TB-500 are commonly combined in research to support tissue repair and recovery processes. This dual approach targets both localized healing and systemic regeneration, making it a widely studied combination for injury-related and recovery-focused models.",
+    "sku": "BKSKU-PV6Y-114",
+    "price": 109,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/257-BPC157 + TB500.png",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "BKSKU-PV6Y-114",
+        "label": "Option 1",
+        "price": 109,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "slug": "259-humanin",
+    "name": "Humanin",
+    "description": "Humanin is a mitochondrial-derived peptide studied for cellular stress response, mitochondrial function, and cytoprotective signaling in research models.",
+    "sku": "EMMY-CN-HU10",
+    "price": 259,
+    "currency": "USD",
+    "inStock": false,
+    "image": "/products/259-Humanin.png",
+    "categoryIds": [
+      100026
+    ],
+    "variants": [
+      {
+        "sku": "EMMY-CN-HU10",
+        "label": "Option 1",
+        "price": 259,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "slug": "260-bpc157-double-chamber-cartridge",
+    "name": "BPC157 Double Chamber Cartridge",
+    "description": "Each double-chamber cartridge contains 20mg BPC157 in 4ml solution. Each box contains 5 cartridges for laboratory research and analytical work.",
+    "sku": "EMMY-CN-BPC20DC",
+    "price": 89,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/260-BPC157 Double Chamber Cartridge.jpeg",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "EMMY-CN-BPC20DC",
+        "label": "Option 1",
+        "price": 89,
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": 261,
+    "slug": "261-mots-c-double-chamber-cartridge",
+    "name": "MOTS-C Double Chamber Cartridge",
+    "description": "Each double-chamber cartridge contains 20mg MOTS-C in 4ml solution. Each box contains 5 cartridges for laboratory research and analytical work.",
+    "sku": "EMMY-CN-MS20DC",
+    "price": 81,
+    "currency": "USD",
+    "inStock": true,
+    "image": "/products/261-MOTS-C Double Chamber Cartridge.jpeg",
+    "categoryIds": [
+      100020
+    ],
+    "variants": [
+      {
+        "sku": "EMMY-CN-MS20DC",
+        "label": "Option 1",
+        "price": 81,
+        "inStock": true
+      }
+    ]
+  }
+]
