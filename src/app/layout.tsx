@@ -3,6 +3,7 @@ import { Playfair_Display, Poppins } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { LiveSupportButton } from "@/components/live-support-button";
 import { CartProvider } from "@/lib/cart-context";
 
 const playfair = Playfair_Display({
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <SiteHeader />
           <main className="flex-1">{children}</main>
           <SiteFooter />
+          <LiveSupportButton />
         </CartProvider>
       </body>
     </html>

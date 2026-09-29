@@ -4,16 +4,15 @@ import { Separator } from '@/components/ui/separator'
 
 const quickLinks = [
   { href: '/testing', label: 'Testing' },
-  { href: '/supply', label: 'Supply' },
+  { href: '/products', label: 'US Warehouse Inventory' },
   { href: '/shipping-policy', label: 'Shipping Policy' },
   { href: '/return-policy', label: 'Return Policy' },
   { href: '/privacy-policy', label: 'Privacy Policy' },
 ]
 
-const communityLinks = [
-  { href: 'https://t.me/+aUEr7VkHjLswZTY8', label: 'Telegram' },
-  { href: 'https://chat.whatsapp.com/LlpmCTE7zQfIylY1T4erlQ', label: 'WhatsApp' },
-  { href: 'https://discord.gg/GfrDAnFuSs', label: 'Discord' },
+const supportLinks = [
+  { href: '/contact', label: 'Account' },
+  { href: '/contact', label: 'Contact Us' },
 ]
 
 export function SiteFooter() {
@@ -40,7 +39,7 @@ export function SiteFooter() {
           </h3>
           <ul className="space-y-2 text-sm text-primary-foreground/80">
             {quickLinks.map((l) => (
-              <li key={l.href}>
+              <li key={l.label}>
                 <Link href={l.href} className="hover:text-secondary transition-colors">
                   {l.label}
                 </Link>
@@ -51,19 +50,14 @@ export function SiteFooter() {
 
         <div>
           <h3 className="text-sm font-semibold uppercase tracking-wide text-secondary mb-4">
-            Community
+            Support
           </h3>
           <ul className="space-y-2 text-sm text-primary-foreground/80">
-            {communityLinks.map((l) => (
-              <li key={l.href}>
-                <a
-                  href={l.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-secondary transition-colors"
-                >
+            {supportLinks.map((l) => (
+              <li key={l.label}>
+                <Link href={l.href} className="hover:text-secondary transition-colors">
                   {l.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -71,15 +65,12 @@ export function SiteFooter() {
 
         <div>
           <h3 className="text-sm font-semibold uppercase tracking-wide text-secondary mb-4">
-            Contact
+            Contact Us
           </h3>
           <ul className="space-y-2 text-sm text-primary-foreground/80">
-            <li>
-              <Link href="/contact" className="hover:text-secondary transition-colors">
-                Contact form
-              </Link>
-            </li>
+            <li>hello@erppeptide.shop</li>
             <li>+44 7519 188836</li>
+            <li>Shanghai ERP Peptide Biotechnology Co., Ltd.</li>
           </ul>
         </div>
       </div>
@@ -93,7 +84,10 @@ export function SiteFooter() {
           all local laws and regulations. ERP Peptides™ is not a pharmacy and
           does not provide medical advice, prescriptions, or consultations.
         </p>
-        <p>&copy; {new Date().getFullYear()} ERP Peptides™. All rights reserved.</p>
+        <p>
+          &copy; {new Date().getFullYear()} ERP Peptides™. All Rights
+          Reserved. | <Link href="/testing" className="hover:text-secondary">Testing</Link>
+        </p>
       </div>
     </footer>
   )

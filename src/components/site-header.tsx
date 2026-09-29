@@ -3,11 +3,12 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { useState } from 'react'
-import { Menu, X, ShoppingCart } from 'lucide-react'
+import { Menu, X, ShoppingCart, Search, User } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useCart } from '@/lib/cart-context'
 
 const navLinks = [
+  { href: '/products', label: 'Promotion' },
   { href: '/warehouses/china', label: 'China Hub' },
   { href: '/warehouses/portland', label: 'USA Hub — Portland' },
   { href: '/warehouses/delaware', label: 'USA Hub — Delaware' },
@@ -25,7 +26,11 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 bg-primary text-primary-foreground">
       <div className="bg-secondary text-secondary-foreground text-center text-xs sm:text-sm py-1.5 px-4">
-        📢 The US and Canada warehouses are shipping as usual — 8–15 day worldwide delivery from China.
+        Overview of all inventory in the US warehouse. The promotion ends on
+        August 25th.{' '}
+        <Link href="/products" className="underline font-medium">
+          Click to view.
+        </Link>
       </div>
 
       <div className="mx-auto max-w-7xl px-4 flex items-center justify-between h-20">
@@ -43,7 +48,7 @@ export function SiteHeader() {
         <nav className="hidden lg:flex items-center gap-6">
           {navLinks.map((link) => (
             <Link
-              key={link.href}
+              key={link.label}
               href={link.href}
               className="text-sm font-medium hover:text-secondary transition-colors"
             >
@@ -52,7 +57,25 @@ export function SiteHeader() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="hidden sm:inline-flex hover:bg-white/10 hover:text-secondary"
+            aria-label="Search"
+          >
+            <Search className="size-5" />
+          </Button>
+          <Button
+            variant="ghost"
+            size="icon"
+            className="hidden sm:inline-flex hover:bg-white/10 hover:text-secondary"
+            render={
+              <Link href="/contact" aria-label="Account">
+                <User className="size-5" />
+              </Link>
+            }
+          />
           <Button
             variant="ghost"
             size="icon"
@@ -86,7 +109,7 @@ export function SiteHeader() {
         <nav className="lg:hidden border-t border-white/10 px-4 py-3 flex flex-col gap-3">
           {navLinks.map((link) => (
             <Link
-              key={link.href}
+              key={link.label}
               href={link.href}
               className="text-sm font-medium"
               onClick={() => setOpen(false)}
