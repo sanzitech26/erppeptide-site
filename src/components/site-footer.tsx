@@ -5,14 +5,14 @@ import { Separator } from '@/components/ui/separator'
 const quickLinks = [
   { href: '/testing', label: 'Testing' },
   { href: '/products', label: 'US Warehouse Inventory' },
-  { href: '/shipping-policy', label: 'Shipping Policy' },
-  { href: '/return-policy', label: 'Return Policy' },
-  { href: '/privacy-policy', label: 'Privacy Policy' },
 ]
 
 const supportLinks = [
   { href: '/contact', label: 'Account' },
+  { href: '/shipping-policy', label: 'Shipping Policy' },
+  { href: '/return-policy', label: 'Return Policy' },
   { href: '/contact', label: 'Contact Us' },
+  { href: '/privacy-policy', label: 'Privacy Policy' },
 ]
 
 export function SiteFooter() {
@@ -28,8 +28,11 @@ export function SiteFooter() {
             className="h-8 w-auto brightness-0 invert mb-4"
           />
           <p className="text-sm text-primary-foreground/70">
-            Shanghai ERP Peptide Biotechnology Co., Ltd. Factory-direct research
-            peptides, shipped from China, USA, and Canada warehouses.
+            ERP Peptides™ products are for research purposes only. Not for
+            human consumption or clinical use. The buyer is responsible for
+            adhering to all local laws and regulations. ERP Peptides™ is not
+            a pharmacy and does not provide medical advice, prescriptions, or
+            consultations.
           </p>
         </div>
 
@@ -68,8 +71,8 @@ export function SiteFooter() {
             Contact Us
           </h3>
           <ul className="space-y-2 text-sm text-primary-foreground/80">
-            <li>hello@erppeptide.shop</li>
-            <li>+44 7519 188836</li>
+            <li>emmy@erppeptides.shop</li>
+            <li>+44 7999 102605</li>
             <li>Shanghai ERP Peptide Biotechnology Co., Ltd.</li>
           </ul>
         </div>
@@ -77,13 +80,7 @@ export function SiteFooter() {
 
       <Separator className="bg-white/10" />
 
-      <div className="mx-auto max-w-7xl px-4 py-6 text-xs text-primary-foreground/60 space-y-2">
-        <p>
-          ERP Peptides™ products are for research purposes only. Not for human
-          consumption or clinical use. The buyer is responsible for adhering to
-          all local laws and regulations. ERP Peptides™ is not a pharmacy and
-          does not provide medical advice, prescriptions, or consultations.
-        </p>
+      <div className="mx-auto max-w-7xl px-4 py-6 text-xs text-primary-foreground/60">
         <p>
           &copy; {new Date().getFullYear()} ERP Peptides™. All Rights
           Reserved. | <Link href="/testing" className="hover:text-secondary">Testing</Link>

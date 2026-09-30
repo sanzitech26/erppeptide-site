@@ -168,9 +168,10 @@ export default function Home() {
           alt=""
           fill
           priority
-          className="object-cover opacity-30"
+          className="object-cover mix-blend-luminosity opacity-90"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/95 to-primary/70" />
+        <div className="absolute inset-0 bg-primary/60" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/80 to-primary/30" />
 
         <div className="relative mx-auto max-w-7xl px-4 py-16 sm:py-24 grid gap-12 lg:grid-cols-[1.3fr_1fr] items-center">
           <div>
@@ -193,13 +194,13 @@ export default function Home() {
             <div className="flex flex-wrap items-center gap-4">
               <Button
                 size="lg"
-                className="bg-secondary text-secondary-foreground hover:bg-secondary/90"
+                className="bg-[#040c1c] text-white border border-white/10 hover:bg-[#040c1c]/90"
                 render={<Link href="/products">Browse All Products</Link>}
               />
               <Button
                 size="lg"
                 variant="outline"
-                className="border-primary-foreground/30 text-primary-foreground hover:bg-white/10 hover:text-primary-foreground"
+                className="bg-transparent border-primary-foreground/40 text-primary-foreground hover:bg-white/10 hover:text-primary-foreground"
                 render={<Link href="/supply">Understand the Supply Model</Link>}
               />
             </div>
@@ -235,21 +236,29 @@ export default function Home() {
         </div>
         <div className="grid gap-6 sm:grid-cols-2">
           {distributorGrid.map((d) => (
-            <div key={d.number} className="rounded-xl border border-border bg-card p-6">
-              <p className="font-heading text-2xl font-bold text-secondary-foreground/40 mb-2">
-                {d.number}
-              </p>
+            <div
+              key={d.number}
+              className="relative overflow-hidden rounded-xl border border-border bg-card p-6 before:absolute before:inset-x-0 before:top-0 before:h-1 before:bg-gradient-to-r before:from-primary before:to-secondary"
+            >
+              <div className="size-8 rounded-full bg-primary text-primary-foreground text-sm font-bold flex items-center justify-center mb-4">
+                {Number(d.number)}
+              </div>
               <h3 className="font-heading text-lg font-semibold mb-2">{d.title}</h3>
               <p className="text-sm text-muted-foreground mb-3">{d.body}</p>
               {d.bullets && (
-                <ul className="space-y-1 text-sm text-muted-foreground mb-3">
+                <ul className="space-y-1.5 text-sm text-muted-foreground mb-3">
                   {d.bullets.map((b) => (
-                    <li key={b}>• {b}</li>
+                    <li key={b} className="flex gap-2">
+                      <span className="text-secondary mt-1">●</span>
+                      <span>{b}</span>
+                    </li>
                   ))}
                 </ul>
               )}
               {d.footer && (
-                <p className="text-sm font-medium text-primary">{d.footer}</p>
+                <p className="text-sm font-medium text-primary border-t border-border pt-3">
+                  {d.footer}
+                </p>
               )}
             </div>
           ))}
@@ -266,19 +275,24 @@ export default function Home() {
             {assuranceCards.map((c) => (
               <div key={c.title} className="rounded-xl bg-card border border-border p-6">
                 <div className="flex items-center justify-between mb-4">
-                  <c.icon className="size-6 text-primary" />
-                  <span className="text-[10px] font-semibold uppercase tracking-wide text-secondary-foreground/60 bg-secondary/40 rounded-full px-2 py-1">
+                  <div className="size-10 rounded-lg bg-muted flex items-center justify-center">
+                    <c.icon className="size-5 text-primary" />
+                  </div>
+                  <span className="text-[10px] font-semibold uppercase tracking-wide text-secondary-foreground/70 bg-secondary rounded-full px-2.5 py-1">
                     {c.tag}
                   </span>
                 </div>
                 <h3 className="font-heading font-semibold mb-2">{c.title}</h3>
                 <p className="text-sm text-muted-foreground mb-3">{c.intro}</p>
-                <ul className="space-y-1 text-sm text-muted-foreground mb-3">
+                <ul className="space-y-1.5 text-sm text-muted-foreground mb-3">
                   {c.bullets.map((b) => (
-                    <li key={b}>• {b}</li>
+                    <li key={b} className="flex gap-2">
+                      <span className="text-secondary mt-1">●</span>
+                      <span>{b}</span>
+                    </li>
                   ))}
                 </ul>
-                <p className="text-sm font-medium text-primary">{c.outcome}</p>
+                <p className="text-sm font-medium text-primary border-t border-border pt-3">{c.outcome}</p>
               </div>
             ))}
           </div>
@@ -288,7 +302,7 @@ export default function Home() {
       {/* Factory hot products */}
       <section className="mx-auto max-w-7xl px-4 py-20">
         <div className="text-center mb-8">
-          <h2 className="font-heading text-3xl font-bold mb-2">Factory Hot Products</h2>
+          <h2 className="font-heading text-3xl font-bold mb-2">Factory hot products</h2>
           <p className="text-muted-foreground">
             Swipe through current top-position products, then jump into the
             full catalog to compare all available options.
@@ -367,8 +381,11 @@ export default function Home() {
           </p>
           <p>
             Every product is manufactured under controlled quality
-            standards, and <strong className="text-foreground">Certificates of
-            Analysis</strong> are published so third-party test results can
+            standards, and{' '}
+            <Link href="/testing" className="font-semibold text-foreground underline underline-offset-2">
+              Certificates of Analysis
+            </Link>{' '}
+            are published so third-party test results can
             be checked before you commit to a repeat order. Where a
             verified test result fails, we handle the refund rather than
             pushing that risk down to you.
@@ -396,10 +413,10 @@ export default function Home() {
               repeat supply.
             </p>
           </div>
-          <Accordion defaultValue={['authentic']} className="bg-card rounded-xl border border-border px-6">
+          <Accordion defaultValue={['authentic']}>
             {faqs.map((f) => (
               <AccordionItem key={f.value} value={f.value}>
-                <AccordionTrigger className="font-heading">{f.q}</AccordionTrigger>
+                <AccordionTrigger>{f.q}</AccordionTrigger>
                 <AccordionContent className="text-muted-foreground">{f.a}</AccordionContent>
               </AccordionItem>
             ))}
