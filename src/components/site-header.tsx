@@ -3,34 +3,14 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { useState } from 'react'
-import {
-  Menu,
-  X,
-  ShoppingCart,
-  Search,
-  User,
-  MessageCircle,
-  ChevronDown,
-} from 'lucide-react'
+import { Menu, X, ShoppingCart, Search, MessageCircle } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu'
 import { useCart } from '@/lib/cart-context'
 
 const navLinks = [
-  { href: '/products', label: 'Promotion', flag: '🔥' },
-  { href: '/warehouses/china', label: 'China Hub', flag: '🇨🇳' },
-  { href: '/warehouses/canada', label: 'Canada Hub', flag: '🇨🇦' },
-  { href: '/about', label: 'About Us', flag: null },
-]
-
-const usaHubLinks = [
-  { href: '/warehouses/portland', label: 'Warehouse A (Portland)' },
-  { href: '/warehouses/delaware', label: 'Warehouse B (Delaware)' },
+  { href: '/', label: 'Home' },
+  { href: '/products', label: 'Products' },
+  { href: '/about', label: 'About Us' },
 ]
 
 export function SiteHeader() {
@@ -54,35 +34,12 @@ export function SiteHeader() {
           </Link>
 
           <nav className="hidden lg:flex items-center gap-6">
-            {navLinks.slice(0, 2).map((link) => (
+            {navLinks.map((link) => (
               <Link
                 key={link.label}
                 href={link.href}
                 className="text-sm font-medium text-foreground hover:text-primary transition-colors"
               >
-                {link.flag && <span className="mr-1">{link.flag}</span>}
-                {link.label}
-              </Link>
-            ))}
-
-            <DropdownMenu>
-              <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-foreground hover:text-primary transition-colors outline-none">
-                🇺🇸 USA Hub <ChevronDown className="size-3.5" />
-              </DropdownMenuTrigger>
-              <DropdownMenuContent>
-                {usaHubLinks.map((l) => (
-                  <DropdownMenuItem key={l.href} render={<Link href={l.href}>{l.label}</Link>} />
-                ))}
-              </DropdownMenuContent>
-            </DropdownMenu>
-
-            {navLinks.slice(2).map((link) => (
-              <Link
-                key={link.label}
-                href={link.href}
-                className="text-sm font-medium text-foreground hover:text-primary transition-colors"
-              >
-                {link.flag && <span className="mr-1">{link.flag}</span>}
                 {link.label}
               </Link>
             ))}
@@ -102,16 +59,6 @@ export function SiteHeader() {
             <Button variant="ghost" size="icon" className="hidden sm:inline-flex" aria-label="Search">
               <Search className="size-5" />
             </Button>
-            <Button
-              variant="ghost"
-              size="icon"
-              className="hidden sm:inline-flex"
-              render={
-                <Link href="/contact" aria-label="Account">
-                  <User className="size-5" />
-                </Link>
-              }
-            />
             <Button
               variant="ghost"
               size="icon"
@@ -142,20 +89,8 @@ export function SiteHeader() {
 
         {open && (
           <nav className="lg:hidden mx-auto max-w-7xl mt-2 rounded-2xl bg-white border border-border shadow-lg px-5 py-4 flex flex-col gap-3">
-            {navLinks.slice(0, 2).map((link) => (
+            {navLinks.map((link) => (
               <Link key={link.label} href={link.href} className="text-sm font-medium" onClick={() => setOpen(false)}>
-                {link.flag && <span className="mr-1">{link.flag}</span>}
-                {link.label}
-              </Link>
-            ))}
-            {usaHubLinks.map((l) => (
-              <Link key={l.href} href={l.href} className="text-sm font-medium pl-4" onClick={() => setOpen(false)}>
-                🇺🇸 {l.label}
-              </Link>
-            ))}
-            {navLinks.slice(2).map((link) => (
-              <Link key={link.label} href={link.href} className="text-sm font-medium" onClick={() => setOpen(false)}>
-                {link.flag && <span className="mr-1">{link.flag}</span>}
                 {link.label}
               </Link>
             ))}
