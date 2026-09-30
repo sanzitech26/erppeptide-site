@@ -1,4 +1,4 @@
-export const metadata = { title: 'About Us | ERP Peptide' }
+export const metadata = { title: 'About Us | Jaycey Peptides' }
 
 const stats = [
   { value: '2020', label: 'Founding year' },
@@ -14,7 +14,7 @@ export default function AboutPage() {
         About our online store
       </p>
       <h1 className="font-heading text-4xl font-bold mb-6">
-        Shanghai ERP Peptide Biotechnology Co., Ltd.
+        Shanghai Jaycey Peptide Biotechnology Co., Ltd.
       </h1>
       <p className="text-lg text-muted-foreground leading-relaxed mb-4">
         A modern pharmaceutical enterprise with sterile freeze-dried powder
@@ -39,9 +39,9 @@ export default function AboutPage() {
       </div>
 
       <div className="rounded-xl bg-muted/40 border border-border p-8 text-sm text-muted-foreground leading-relaxed">
-        ERP Peptides™ products are for research purposes only. Not for human
+        Jaycey Peptides™ products are for research purposes only. Not for human
         consumption or clinical use. The buyer is responsible for adhering to
-        all local laws and regulations. ERP Peptides™ is not a pharmacy and
+        all local laws and regulations. Jaycey Peptides™ is not a pharmacy and
         does not provide medical advice, prescriptions, or consultations.
       </div>
     </div>

@@ -3,16 +3,19 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { useState } from 'react'
+import { useRouter } from 'next/navigation'
 import { useCart } from '@/lib/cart-context'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
-import { X } from 'lucide-react'
-import { buildOrderMessage, whatsappLink } from '@/lib/whatsapp'
+import { X, Copy, Check, ImagePlus } from 'lucide-react'
+
+const BITCOIN_ADDRESS = process.env.NEXT_PUBLIC_BITCOIN_ADDRESS
 
 export default function CheckoutPage() {
   const { items, subtotal, removeItem, clear } = useCart()
+  const router = useRouter()
   const [form, setForm] = useState({
     name: '',
     email: '',
@@ -23,26 +26,59 @@ export default function CheckoutPage() {
     country: '',
     notes: '',
   })
+  const [proof, setProof] = useState<File | null>(null)
+  const [proofPreview, setProofPreview] = useState<string | null>(null)
+  const [copied, setCopied] = useState(false)
+  const [submitting, setSubmitting] = useState(false)
+  const [error, setError] = useState<string | null>(null)
 
   function update(field: keyof typeof form) {
     return (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) =>
       setForm((f) => ({ ...f, [field]: e.target.value }))
   }
 
-  function handleSubmit(e: React.FormEvent) {
-    e.preventDefault()
-    const message = buildOrderMessage({
-      items: items.map((i) => ({
-        name: i.name,
-        variantLabel: i.variantLabel,
-        quantity: i.quantity,
-        price: i.price,
-      })),
-      subtotal,
-      customer: form,
+  function handleCopy() {
+    if (!BITCOIN_ADDRESS) return
+    navigator.clipboard.writeText(BITCOIN_ADDRESS).then(() => {
+      setCopied(true)
+      setTimeout(() => setCopied(false), 1800)
     })
-    window.open(whatsappLink(message), '_blank', 'noopener,noreferrer')
-    clear()
+  }
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault()
+    if (!proof) {
+      setError('Please upload a screenshot of your Bitcoin payment before submitting.')
+      return
+    }
+    setSubmitting(true)
+    setError(null)
+
+    const body = new FormData()
+    for (const [key, value] of Object.entries(form)) body.append(key, value)
+    body.append(
+      'items',
+      JSON.stringify(
+        items.map((i) => ({
+          name: i.name,
+          variantLabel: i.variantLabel,
+          quantity: i.quantity,
+          price: i.price,
+        }))
+      )
+    )
+    body.append('proof', proof)
+
+    try {
+      const res = await fetch('/api/order', { method: 'POST', body })
+      const data = await res.json()
+      if (!res.ok) throw new Error(data.error ?? 'Could not submit your order.')
+      clear()
+      router.push('/checkout/success')
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Could not submit your order.')
+      setSubmitting(false)
+    }
   }
 
   if (items.length === 0) {
@@ -100,13 +136,59 @@ export default function CheckoutPage() {
             <Textarea id="notes" value={form.notes} onChange={update('notes')} />
           </div>
 
-          <p className="text-xs text-muted-foreground">
-            Submitting opens WhatsApp with your order and details pre-filled — send the
-            message to confirm with our team.
-          </p>
+          <div className="rounded-xl border border-border p-5 space-y-4">
+            <div>
+              <p className="text-sm font-semibold mb-1">Payment — Bitcoin</p>
+              <p className="text-xs text-muted-foreground">
+                Send the total amount in Bitcoin to the address below, then upload a
+                screenshot of the completed transaction.
+              </p>
+            </div>
 
-          <Button type="submit" size="lg" className="w-full sm:w-auto">
-            Continue to WhatsApp
+            {BITCOIN_ADDRESS ? (
+              <div className="flex items-center gap-2 rounded-lg bg-muted/40 border border-border px-3 py-2">
+                <code className="flex-1 text-xs break-all">{BITCOIN_ADDRESS}</code>
+                <Button type="button" variant="ghost" size="icon-sm" onClick={handleCopy} aria-label="Copy address">
+                  {copied ? <Check className="size-4" /> : <Copy className="size-4" />}
+                </Button>
+              </div>
+            ) : (
+              <p className="text-xs text-destructive">
+                Payment address not configured yet — please contact us to complete your order.
+              </p>
+            )}
+
+            <div className="space-y-1.5">
+              <Label htmlFor="proof">Payment proof screenshot *</Label>
+              <div className="flex items-center gap-4">
+                <div className="flex size-16 shrink-0 items-center justify-center overflow-hidden rounded-lg border border-dashed border-border bg-muted/30">
+                  {proofPreview ? (
+                    // eslint-disable-next-line @next/next/no-img-element -- local blob preview, next/image can't optimize it
+                    <img src={proofPreview} alt="" className="size-full object-cover" />
+                  ) : (
+                    <ImagePlus className="size-6 text-muted-foreground/50" />
+                  )}
+                </div>
+                <input
+                  id="proof"
+                  type="file"
+                  accept="image/*"
+                  required
+                  className="block text-sm"
+                  onChange={(e) => {
+                    const file = e.target.files?.[0] ?? null
+                    setProof(file)
+                    setProofPreview(file ? URL.createObjectURL(file) : null)
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+
+          {error && <p className="text-sm text-destructive">{error}</p>}
+
+          <Button type="submit" size="lg" className="w-full sm:w-auto" disabled={submitting}>
+            {submitting ? 'Submitting…' : 'Submit Order'}
           </Button>
         </form>
 

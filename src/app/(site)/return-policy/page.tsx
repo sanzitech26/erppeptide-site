@@ -1,4 +1,4 @@
-export const metadata = { title: 'Return Policy | ERP Peptide' }
+export const metadata = { title: 'Return Policy | Jaycey Peptides' }
 
 export default function ReturnPolicyPage() {
   return (

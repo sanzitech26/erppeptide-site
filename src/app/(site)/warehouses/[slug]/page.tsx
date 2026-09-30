@@ -16,7 +16,7 @@ export async function generateMetadata({
   const { slug } = await params
   const warehouse = getWarehouseBySlug(slug)
   if (!warehouse) return {}
-  return { title: `${warehouse.name} | ERP Peptide` }
+  return { title: `${warehouse.name} | Jaycey Peptides` }
 }
 
 export default async function WarehousePage({

@@ -10,7 +10,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
       <div className="bg-primary text-primary-foreground md:hidden">
         <div className="flex items-center justify-between px-4 py-4">
           <div>
-            <p className="font-heading text-lg leading-none">ERP Peptides</p>
+            <p className="font-heading text-lg leading-none">Jaycey Peptides</p>
             <p className="text-[10px] font-medium tracking-wide text-primary-foreground/60 uppercase">
               Admin
             </p>
@@ -33,7 +33,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
       {/* Desktop sidebar (hidden below md) */}
       <aside className="hidden w-64 shrink-0 flex-col bg-primary px-4 py-6 text-primary-foreground md:flex">
         <div className="mb-8 px-2">
-          <p className="font-heading text-lg">ERP Peptides</p>
+          <p className="font-heading text-lg">Jaycey Peptides</p>
           <p className="text-xs font-medium tracking-wide text-primary-foreground/60 uppercase">
             Admin
           </p>

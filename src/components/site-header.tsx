@@ -31,7 +31,7 @@ export function SiteHeader() {
       <div className="bg-background/95 backdrop-blur-sm px-4 py-3">
         <div className="mx-auto max-w-7xl flex items-center justify-between gap-4 rounded-full bg-white border border-border shadow-lg px-5 py-2.5">
           <Link href="/" className="shrink-0">
-            <Image src="/brand/logo.png" alt="ERP Peptide" width={140} height={35} className="h-8 w-auto" priority />
+            <Image src="/brand/logo.png" alt="Jaycey Peptides" width={140} height={35} className="h-8 w-auto" priority />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-6">

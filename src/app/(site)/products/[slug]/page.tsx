@@ -22,8 +22,8 @@ export async function generateMetadata({
   const product = await getProductBySlug(slug).catch(() => undefined)
   if (!product) return {}
   return {
-    title: `${product.name} | ERP Peptide`,
-    description: product.description || `${product.name} — factory-direct research peptide from ERP Peptide.`,
+    title: `${product.name} | Jaycey Peptides`,
+    description: product.description || `${product.name} — factory-direct research peptide from Jaycey Peptides.`,
   }
 }
 

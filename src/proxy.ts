@@ -30,8 +30,9 @@ export async function proxy(request: NextRequest) {
 
   const { pathname } = request.nextUrl;
   const isLoginPage = pathname === "/admin/login";
+  const publicAdminPages = ["/admin/login", "/admin/forgot-password", "/admin/reset-password"];
 
-  if (!user && !isLoginPage) {
+  if (!user && !publicAdminPages.includes(pathname)) {
     return NextResponse.redirect(new URL("/admin/login", request.url));
   }
   if (user && isLoginPage) {

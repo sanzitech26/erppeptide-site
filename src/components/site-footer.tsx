@@ -6,6 +6,8 @@ import { whatsappLink } from '@/lib/whatsapp'
 const quickLinks = [
   { href: '/testing', label: 'Testing' },
   { href: '/products', label: 'US Warehouse Inventory' },
+  { href: '/testimonials', label: 'Testimonials' },
+  { href: '/blog', label: 'Blog' },
 ]
 
 const supportLinks = [
@@ -23,15 +25,15 @@ export function SiteFooter() {
         <div>
           <Image
             src="/brand/logo.png"
-            alt="ERP Peptide"
+            alt="Jaycey Peptides"
             width={160}
             height={40}
             className="h-8 w-auto brightness-0 invert mb-4"
           />
           <p className="text-sm text-primary-foreground/70">
-            ERP Peptides™ products are for research purposes only. Not for
+            Jaycey Peptides™ products are for research purposes only. Not for
             human consumption or clinical use. The buyer is responsible for
-            adhering to all local laws and regulations. ERP Peptides™ is not
+            adhering to all local laws and regulations. Jaycey Peptides™ is not
             a pharmacy and does not provide medical advice, prescriptions, or
             consultations.
           </p>
@@ -72,7 +74,9 @@ export function SiteFooter() {
             Contact Us
           </h3>
           <ul className="space-y-2 text-sm text-primary-foreground/80">
-            <li>emmy@erppeptides.shop</li>
+            {process.env.ORDER_NOTIFICATION_EMAIL && (
+              <li>{process.env.ORDER_NOTIFICATION_EMAIL}</li>
+            )}
             <li>
               <a
                 href={whatsappLink()}
@@ -83,7 +87,7 @@ export function SiteFooter() {
                 WhatsApp: +1 (402) 320-6956
               </a>
             </li>
-            <li>Shanghai ERP Peptide Biotechnology Co., Ltd.</li>
+            <li>Shanghai Jaycey Peptide Biotechnology Co., Ltd.</li>
           </ul>
         </div>
       </div>
@@ -92,7 +96,7 @@ export function SiteFooter() {
 
       <div className="mx-auto max-w-7xl px-4 py-6 text-xs text-primary-foreground/60">
         <p>
-          &copy; {new Date().getFullYear()} ERP Peptides™. All Rights
+          &copy; {new Date().getFullYear()} Jaycey Peptides™. All Rights
           Reserved. | <Link href="/testing" className="hover:text-secondary">Testing</Link>
         </p>
       </div>

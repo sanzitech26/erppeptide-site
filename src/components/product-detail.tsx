@@ -165,7 +165,7 @@ export function ProductDetail({ product }: { product: Product }) {
 
         <p className="text-xs text-muted-foreground border-t border-border pt-4">
           For research purposes only. Not for human consumption or clinical use.
-          ERP Peptides™ is not a pharmacy and does not provide medical advice.
+          Jaycey Peptides™ is not a pharmacy and does not provide medical advice.
         </p>
       </div>
     </div>

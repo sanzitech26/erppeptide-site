@@ -1,4 +1,3 @@
-import { Headphones } from 'lucide-react'
 import { whatsappLink } from '@/lib/whatsapp'
 
 export function LiveSupportButton() {
@@ -7,10 +6,12 @@ export function LiveSupportButton() {
       href={whatsappLink()}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-5 right-5 z-50 flex items-center gap-2 rounded-full bg-primary text-primary-foreground pl-4 pr-5 py-3 text-sm font-medium shadow-lg hover:bg-primary/90 transition-colors"
+      aria-label="Chat with us on WhatsApp"
+      className="fixed bottom-5 left-5 z-50 flex size-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg hover:bg-[#20bd5a] transition-colors"
     >
-      <Headphones className="size-4" />
-      Live support
+      <svg viewBox="0 0 32 32" className="size-7" fill="currentColor" aria-hidden="true">
+        <path d="M16.004 3C9.377 3 4 8.373 4 15c0 2.27.63 4.394 1.72 6.207L4 29l7.977-1.688A11.94 11.94 0 0 0 16.004 27C22.63 27 28 21.627 28 15S22.63 3 16.004 3Zm0 21.75c-1.94 0-3.75-.54-5.293-1.477l-.38-.226-4.734 1.002 1.02-4.617-.248-.397A9.7 9.7 0 0 1 5.25 15c0-5.93 4.824-10.75 10.754-10.75S26.75 9.07 26.75 15 21.934 24.75 16.004 24.75Zm5.902-8.043c-.324-.163-1.914-.945-2.211-1.05-.297-.109-.512-.163-.727.163-.215.325-.832 1.05-1.02 1.266-.187.216-.375.244-.699.082-.324-.163-1.367-.504-2.605-1.606-.963-.86-1.613-1.921-1.801-2.246-.187-.325-.02-.5.144-.663.148-.147.324-.383.485-.575.163-.19.216-.325.324-.542.109-.216.055-.406-.027-.57-.082-.163-.727-1.75-.996-2.398-.262-.63-.528-.545-.727-.555l-.618-.011c-.216 0-.567.081-.863.406-.297.325-1.133 1.106-1.133 2.699s1.16 3.133 1.32 3.348c.163.216 2.281 3.481 5.527 4.883.772.334 1.375.534 1.844.683.775.246 1.48.211 2.038.128.622-.093 1.914-.782 2.184-1.539.27-.756.27-1.404.19-1.539-.082-.135-.297-.216-.62-.379Z" />
+      </svg>
     </a>
   )
 }

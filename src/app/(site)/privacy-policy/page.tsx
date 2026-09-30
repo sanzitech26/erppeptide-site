@@ -1,4 +1,4 @@
-export const metadata = { title: 'Privacy Policy | ERP Peptide' }
+export const metadata = { title: 'Privacy Policy | Jaycey Peptides' }
 
 export default function PrivacyPolicyPage() {
   return (
@@ -7,7 +7,7 @@ export default function PrivacyPolicyPage() {
 
       <div className="space-y-8 text-muted-foreground leading-relaxed text-sm">
         <p>
-          This Privacy Policy describes how ERP Peptide (&ldquo;we,&rdquo;
+          This Privacy Policy describes how Jaycey Peptides (&ldquo;we,&rdquo;
           &ldquo;us,&rdquo; or &ldquo;our&rdquo;) collects, uses, and
           discloses your personal information when you visit, use our
           services, or make a purchase from this site, or otherwise

@@ -1,6 +1,6 @@
 import { CheckCircle2 } from 'lucide-react'
 
-export const metadata = { title: 'Testing | ERP Peptide' }
+export const metadata = { title: 'Testing | Jaycey Peptides' }
 
 const steps = [
   {

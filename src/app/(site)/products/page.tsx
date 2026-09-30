@@ -4,7 +4,7 @@ import { getAllProducts, getAllCategories, getCategoryBySlug } from '@/lib/produ
 import { cn } from 'cn'
 
 export const metadata = {
-  title: 'All Products | ERP Peptide',
+  title: 'All Products | Jaycey Peptides',
 }
 
 export default async function ProductsPage({

@@ -9,6 +9,9 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion'
 import { getFeaturedProducts } from '@/lib/products'
+import { getAllFaqs } from '@/lib/faqs'
+import { getAllTestimonials } from '@/lib/testimonials'
+import { TestimonialGrid } from '@/components/testimonials-section'
 import { Truck, ShieldCheck, BadgeCheck } from 'lucide-react'
 
 const heroInfoCards = [
@@ -94,68 +97,6 @@ const assuranceCards = [
   },
 ]
 
-// ponytail: only the first FAQ answer is verbatim from the design mockup —
-// the rest are drafted from facts already verified elsewhere on this site
-// (shipping/return policy, supply page). Payment methods, tracking, and
-// storage answers are reasonable placeholders pending real copy from the client.
-const faqs = [
-  {
-    value: 'authentic',
-    q: 'Are your peptides real and authentic?',
-    a: 'Yes — we are a factory-direct supplier with stable production and large inventory. All products are manufactured under strict quality standards, and COAs (Certificates of Analysis) are available for verification.',
-  },
-  {
-    value: 'order-problem',
-    q: 'What if there is a problem with my order?',
-    a: 'Inspect your order on arrival. If an item is defective, damaged, or incorrect, contact our support team and we’ll handle a refund or replacement directly — no need to push the issue to your own customers.',
-  },
-  {
-    value: 'pricing',
-    q: 'Why are your prices lower than other companies?',
-    a: 'We sell factory-direct with no reseller layers, no brand premiums, and no stacked margins. Pricing reflects production, packaging, and logistics — not retail markup.',
-  },
-  {
-    value: 'bulk',
-    q: 'Do you offer bulk discounts?',
-    a: 'Yes. Kit-based wholesale pricing is available for distributors and repeat buyers, with priority access for long-term partners. Contact support for a bulk quote.',
-  },
-  {
-    value: 'payment',
-    q: 'What payment methods do you accept?',
-    a: 'We accept major cryptocurrencies and bank transfer for wholesale orders. Contact our support team for the current payment options available in your region.',
-  },
-  {
-    value: 'shipping-time',
-    q: 'How long does shipping take?',
-    a: 'China warehouse: 8-15 business days worldwide. USA warehouses: 3-5 business days within the US. Canada warehouse: 3-6 business days within Canada.',
-  },
-  {
-    value: 'customs',
-    q: 'Do I need to pay customs or taxes?',
-    a: 'No. All China warehouse shipments are DDP (Delivered Duty Paid) — duties and taxes are prepaid, so there are no additional import fees on delivery.',
-  },
-  {
-    value: 'ship-country',
-    q: 'Do you ship to my country?',
-    a: 'The China warehouse ships worldwide. Our USA and Canada warehouses ship domestically only, within the US and Canada respectively.',
-  },
-  {
-    value: 'ship-when',
-    q: 'When will my order be shipped?',
-    a: 'Orders are processed Monday-Friday, and a tracking number is emailed as soon as your order ships.',
-  },
-  {
-    value: 'tracking',
-    q: 'Why is my tracking not updating?',
-    a: 'Tracking can take 24-48 hours to register after a label is created, and may pause briefly during customs clearance. If it hasn’t updated after 5 business days, contact support and we’ll look into it.',
-  },
-  {
-    value: 'storage',
-    q: 'How should peptides be stored?',
-    a: 'Lyophilized (freeze-dried) peptides should be stored frozen and protected from light until reconstitution. Once reconstituted, store refrigerated and use within the timeframe recommended for that specific peptide. Refer to each product page for compound-specific guidance.',
-  },
-]
-
 export const dynamic = 'force-dynamic'
 
 export default async function Home() {
@@ -165,6 +106,20 @@ export default async function Home() {
   } catch {
     // Catalog not migrated/seeded yet — render without the featured grid
     // rather than crashing the whole homepage.
+  }
+
+  let faqs: Awaited<ReturnType<typeof getAllFaqs>> = []
+  try {
+    faqs = await getAllFaqs()
+  } catch {
+    // FAQ table not migrated yet — render without the FAQ section.
+  }
+
+  let testimonials: Awaited<ReturnType<typeof getAllTestimonials>> = []
+  try {
+    testimonials = await getAllTestimonials()
+  } catch {
+    // Testimonials table not migrated yet — render without the section.
   }
 
   return (
@@ -349,7 +304,7 @@ export default async function Home() {
         </h2>
         <div className="space-y-5 text-muted-foreground leading-relaxed">
           <p>
-            ERP Peptides supplies <strong className="text-foreground">factory-direct research peptides</strong> to
+            Jaycey Peptides supplies <strong className="text-foreground">factory-direct research peptides</strong> to
             local distributors, stockists and laboratories that need a
             dependable upstream source rather than another layer of resale.
             Product moves from our own production line straight to dispatch,
@@ -411,26 +366,39 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* FAQ */}
-      <section className="bg-muted/40 py-20">
-        <div className="mx-auto max-w-3xl px-4">
+      {/* Testimonials */}
+      {testimonials.length > 0 && (
+        <section className="mx-auto max-w-7xl px-4 py-20">
           <div className="text-center mb-10">
-            <h2 className="font-heading text-3xl font-bold mb-2">Questions &amp; Answers</h2>
-            <p className="text-muted-foreground">
-              Answers to the issues distributors ask about before starting
-              repeat supply.
-            </p>
+            <h2 className="font-heading text-3xl font-bold mb-2">What Our Customers Say</h2>
+            <p className="text-muted-foreground">Real feedback from buyers and distributors.</p>
           </div>
-          <Accordion defaultValue={['authentic']}>
-            {faqs.map((f) => (
-              <AccordionItem key={f.value} value={f.value}>
-                <AccordionTrigger>{f.q}</AccordionTrigger>
-                <AccordionContent className="text-muted-foreground">{f.a}</AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
-        </div>
-      </section>
+          <TestimonialGrid testimonials={testimonials.slice(0, 6)} />
+        </section>
+      )}
+
+      {/* FAQ */}
+      {faqs.length > 0 && (
+        <section className="bg-muted/40 py-20">
+          <div className="mx-auto max-w-3xl px-4">
+            <div className="text-center mb-10">
+              <h2 className="font-heading text-3xl font-bold mb-2">Questions &amp; Answers</h2>
+              <p className="text-muted-foreground">
+                Answers to the issues distributors ask about before starting
+                repeat supply.
+              </p>
+            </div>
+            <Accordion defaultValue={[faqs[0].id.toString()]}>
+              {faqs.map((f) => (
+                <AccordionItem key={f.id} value={f.id.toString()}>
+                  <AccordionTrigger>{f.question}</AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground">{f.answer}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
+        </section>
+      )}
 
       {/* Research use only banner */}
       <section className="bg-primary text-primary-foreground py-10 text-center">

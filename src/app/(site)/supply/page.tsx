@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { Package, Headset, ShieldCheck, Users, TrendingDown } from 'lucide-react'
 
-export const metadata = { title: 'Supply | ERP Peptide' }
+export const metadata = { title: 'Supply | Jaycey Peptides' }
 
 const logistics = [
   'Worldwide delivery in 8–15 days',
