@@ -1,3 +1,5 @@
+import { TriangleAlert } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { getAllCategories } from "@/lib/products";
 import { ProductForm } from "./product-form";
 
@@ -19,17 +21,37 @@ export default async function NewProductPage() {
 
   return (
     <div>
-      <h1 className="mb-6 text-2xl font-heading">Add Product</h1>
-
-      {loadError ? (
-        <p className="text-sm text-destructive">
-          Could not load categories — run{" "}
-          <code className="rounded bg-muted px-1 py-0.5">supabase/migrations/0002_products.sql</code>{" "}
-          in the Supabase SQL editor if you haven&apos;t yet.
+      <div className="mb-6">
+        <h1 className="text-2xl font-heading">Add Product</h1>
+        <p className="text-sm text-muted-foreground">
+          Published immediately — visible on the storefront as soon as you save.
         </p>
-      ) : (
-        <ProductForm categories={categories} />
-      )}
+      </div>
+
+      <Card>
+        {loadError ? (
+          <CardContent className="flex flex-col items-center gap-2 py-16 text-center">
+            <TriangleAlert className="size-8 text-destructive/60" />
+            <p className="text-sm text-destructive">
+              Could not load categories — run{" "}
+              <code className="rounded bg-muted px-1 py-0.5">
+                supabase/migrations/0002_products.sql
+              </code>{" "}
+              in the Supabase SQL editor if you haven&apos;t yet.
+            </p>
+          </CardContent>
+        ) : (
+          <>
+            <CardHeader>
+              <CardTitle>Product details</CardTitle>
+              <CardDescription>Fields marked required must be filled in.</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <ProductForm categories={categories} />
+            </CardContent>
+          </>
+        )}
+      </Card>
     </div>
   );
 }

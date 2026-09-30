@@ -1,29 +1,37 @@
-import Link from "next/link";
+import { LogOut } from "lucide-react";
 import { logout } from "../actions";
 import { Button } from "@/components/ui/button";
+import { AdminNav } from "./admin-nav";
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="min-h-screen bg-muted/30">
-      <header className="flex items-center justify-between border-b bg-background px-6 py-4">
-        <div className="flex items-center gap-6">
-          <span className="font-heading text-lg">ERP Peptides Admin</span>
-          <nav className="flex gap-4 text-sm">
-            <Link href="/admin" className="hover:underline">
-              Contact Messages
-            </Link>
-            <Link href="/admin/products/new" className="hover:underline">
-              Add Product
-            </Link>
-          </nav>
+    <div className="flex min-h-screen bg-muted/30">
+      <aside className="flex w-64 shrink-0 flex-col bg-primary px-4 py-6 text-primary-foreground">
+        <div className="mb-8 px-2">
+          <p className="font-heading text-lg">ERP Peptides</p>
+          <p className="text-xs font-medium tracking-wide text-primary-foreground/60 uppercase">
+            Admin
+          </p>
         </div>
-        <form action={logout}>
-          <Button variant="outline" size="sm" type="submit">
+
+        <AdminNav />
+
+        <form action={logout} className="mt-auto pt-6">
+          <Button
+            variant="ghost"
+            size="sm"
+            type="submit"
+            className="w-full justify-start gap-2.5 text-primary-foreground/70 hover:bg-white/5 hover:text-white"
+          >
+            <LogOut className="size-4" />
             Log out
           </Button>
         </form>
-      </header>
-      <main className="mx-auto max-w-5xl px-6 py-8">{children}</main>
+      </aside>
+
+      <main className="flex-1 px-8 py-10">
+        <div className="mx-auto max-w-4xl">{children}</div>
+      </main>
     </div>
   );
 }
