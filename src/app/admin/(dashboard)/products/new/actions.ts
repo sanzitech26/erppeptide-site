@@ -19,18 +19,29 @@ export async function createProduct(
 ): Promise<CreateProductState> {
   const name = formData.get("name");
   const description = formData.get("description");
-  const sku = formData.get("sku");
-  const priceRaw = formData.get("price");
   const inStock = formData.get("inStock") === "on";
   const categoryIds = formData.getAll("categoryIds").map(Number).filter((n) => !Number.isNaN(n));
   const image = formData.get("image");
+  const optionLabels = formData.getAll("optionLabel");
+  const optionPrices = formData.getAll("optionPrice");
 
   if (typeof name !== "string" || !name.trim()) {
     return { error: "Name is required." };
   }
-  const price = typeof priceRaw === "string" ? Number(priceRaw) : NaN;
-  if (Number.isNaN(price) || price < 0) {
-    return { error: "Enter a valid price." };
+
+  const options: { label: string; price: number }[] = [];
+  for (let i = 0; i < optionLabels.length; i++) {
+    const label = optionLabels[i];
+    const priceRaw = optionPrices[i];
+    if (typeof label !== "string" || !label.trim()) continue;
+    const price = typeof priceRaw === "string" ? Number(priceRaw) : NaN;
+    if (Number.isNaN(price) || price < 0) {
+      return { error: `Enter a valid price for "${label.trim()}".` };
+    }
+    options.push({ label: label.trim(), price });
+  }
+  if (options.length === 0) {
+    return { error: "Add at least one option with a name and price." };
   }
 
   const supabase = await createClient();
@@ -50,6 +61,19 @@ export async function createProduct(
     slug = `${baseSlug}-${suffix}`;
   }
 
+  const usedSkus = new Set<string>();
+  const variants = options.map((o) => {
+    const labelSlug = slugify(o.label);
+    const base = labelSlug ? `${slug}-${labelSlug}` : slug;
+    let sku = base;
+    for (let suffix = 2; usedSkus.has(sku); suffix++) {
+      sku = `${base}-${suffix}`;
+    }
+    usedSkus.add(sku);
+    return { sku, label: o.label, price: o.price, inStock };
+  });
+  const price = Math.min(...variants.map((v) => v.price));
+
   let imagePath: string | null = null;
   if (image instanceof File && image.size > 0) {
     const ext = image.name.split(".").pop() || "jpg";
@@ -67,13 +91,13 @@ export async function createProduct(
     slug,
     name: name.trim(),
     description: typeof description === "string" ? description.trim() : "",
-    sku: typeof sku === "string" ? sku.trim() : "",
+    sku: variants[0].sku,
     price,
     currency: "usd",
     in_stock: inStock,
     image: imagePath,
     category_ids: categoryIds,
-    variants: [],
+    variants,
   });
 
   if (insertError) {

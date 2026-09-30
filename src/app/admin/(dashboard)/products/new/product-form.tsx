@@ -1,7 +1,7 @@
 "use client";
 
 import { useActionState, useEffect, useRef, useState } from "react";
-import { ImagePlus } from "lucide-react";
+import { ImagePlus, Plus, Trash2 } from "lucide-react";
 import { createProduct } from "./actions";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -18,16 +18,22 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
   );
 }
 
+function emptyOption() {
+  return { key: crypto.randomUUID() };
+}
+
 export function ProductForm({ categories }: { categories: Category[] }) {
   const [state, action, pending] = useActionState(createProduct, undefined);
   const formRef = useRef<HTMLFormElement>(null);
   const [imagePreview, setImagePreview] = useState<string | null>(null);
+  const [options, setOptions] = useState([emptyOption()]);
 
   useEffect(() => {
     if (state?.success) {
       formRef.current?.reset();
       // eslint-disable-next-line react-hooks/set-state-in-effect -- resetting the preview to match the just-cleared file input
       setImagePreview(null);
+      setOptions([emptyOption()]);
     }
   }, [state]);
 
@@ -48,17 +54,53 @@ export function ProductForm({ categories }: { categories: Category[] }) {
       <Separator />
 
       <div className="space-y-4">
-        <SectionLabel>Pricing &amp; stock</SectionLabel>
-        <div className="grid grid-cols-2 gap-4">
-          <div className="space-y-1.5">
-            <Label htmlFor="sku">SKU</Label>
-            <Input id="sku" name="sku" />
-          </div>
-          <div className="space-y-1.5">
-            <Label htmlFor="price">Price (USD) *</Label>
-            <Input id="price" name="price" type="number" step="0.01" min="0" required />
-          </div>
+        <SectionLabel>Options</SectionLabel>
+        <div className="space-y-2">
+          {options.map((o) => (
+            <div key={o.key} className="flex gap-2">
+              <Input
+                name="optionLabel"
+                placeholder="e.g. 20mg × 10 Vials"
+                required
+                className="flex-1"
+              />
+              <Input
+                name="optionPrice"
+                type="number"
+                step="0.01"
+                min="0"
+                placeholder="Price"
+                required
+                className="w-28"
+              />
+              <Button
+                type="button"
+                variant="ghost"
+                size="icon"
+                onClick={() => setOptions((prev) => prev.filter((p) => p.key !== o.key))}
+                disabled={options.length === 1}
+                aria-label="Remove option"
+              >
+                <Trash2 className="size-4" />
+              </Button>
+            </div>
+          ))}
         </div>
+        <Button
+          type="button"
+          variant="outline"
+          size="sm"
+          onClick={() => setOptions((prev) => [...prev, emptyOption()])}
+        >
+          <Plus className="size-4" />
+          Add another option
+        </Button>
+      </div>
+
+      <Separator />
+
+      <div className="space-y-4">
+        <SectionLabel>Stock</SectionLabel>
         <label className="flex w-fit items-center gap-2 text-sm">
           <input id="inStock" name="inStock" type="checkbox" defaultChecked className="size-4" />
           In stock
