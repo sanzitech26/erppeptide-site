@@ -80,37 +80,35 @@ export function ProductDetail({ product }: { product: Product }) {
           </p>
         )}
 
-        {variants.length > 1 && (
-          <div className="mb-6">
-            <p className="text-sm font-semibold mb-2">Select option</p>
-            <div className="grid grid-cols-3 gap-3 sm:grid-cols-4">
-              {variants.map((v) => (
-                <button
-                  key={v.sku}
-                  onClick={() => setSelectedSku(v.sku)}
-                  disabled={!v.inStock}
-                  className={`flex flex-col items-center gap-2 rounded-xl border p-3 transition-colors disabled:opacity-40 disabled:cursor-not-allowed ${
-                    v.sku === selectedSku
-                      ? 'border-primary bg-primary/5'
-                      : 'border-border hover:border-primary/40'
+        <div className="mb-6">
+          <p className="text-sm font-semibold mb-2">Select option</p>
+          <div className="grid grid-cols-3 gap-3 sm:grid-cols-4">
+            {variants.map((v) => (
+              <button
+                key={v.sku}
+                onClick={() => setSelectedSku(v.sku)}
+                disabled={!v.inStock}
+                className={`flex flex-col items-center gap-2 rounded-xl border p-3 transition-colors disabled:opacity-40 disabled:cursor-not-allowed ${
+                  v.sku === selectedSku
+                    ? 'border-primary bg-primary/5'
+                    : 'border-border hover:border-primary/40'
+                }`}
+              >
+                <div className="relative size-16 overflow-hidden rounded-lg border border-border bg-white">
+                  {product.image && (
+                    <Image src={product.image} alt="" fill className="object-contain p-1.5" />
+                  )}
+                </div>
+                <span className="text-center text-xs font-medium leading-tight">{v.label}</span>
+                <span
+                  className={`size-3 rounded-full border-2 ${
+                    v.sku === selectedSku ? 'border-primary bg-primary' : 'border-muted-foreground/30'
                   }`}
-                >
-                  <div className="relative size-16 overflow-hidden rounded-lg border border-border bg-white">
-                    {product.image && (
-                      <Image src={product.image} alt="" fill className="object-contain p-1.5" />
-                    )}
-                  </div>
-                  <span className="text-center text-xs font-medium leading-tight">{v.label}</span>
-                  <span
-                    className={`size-3 rounded-full border-2 ${
-                      v.sku === selectedSku ? 'border-primary bg-primary' : 'border-muted-foreground/30'
-                    }`}
-                  />
-                </button>
-              ))}
-            </div>
+                />
+              </button>
+            ))}
           </div>
-        )}
+        </div>
 
         <div className="flex flex-wrap items-center gap-3 mb-6">
           <div className="flex items-center border border-border rounded-lg">
