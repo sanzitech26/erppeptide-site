@@ -66,9 +66,11 @@ export function ProductDetail({ product }: { product: Product }) {
         <p className="text-2xl font-semibold text-primary mb-6">
           ${selected.price.toFixed(2)}
         </p>
-        <p className="text-muted-foreground leading-relaxed mb-8">
-          {product.description}
-        </p>
+        {product.description && (
+          <p className="text-muted-foreground leading-relaxed mb-8">
+            {product.description}
+          </p>
+        )}
 
         {variants.length > 1 && (
           <div className="mb-6">

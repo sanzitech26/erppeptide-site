@@ -23,7 +23,7 @@ export async function generateMetadata({
   if (!product) return {}
   return {
     title: `${product.name} | ERP Peptide`,
-    description: product.description,
+    description: product.description || `${product.name} — factory-direct research peptide from ERP Peptide.`,
   }
 }
 

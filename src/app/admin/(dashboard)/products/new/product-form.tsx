@@ -5,7 +5,6 @@ import { ImagePlus, Plus, Trash2 } from "lucide-react";
 import { createProduct } from "./actions";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import type { Category } from "@/lib/products";
@@ -44,10 +43,6 @@ export function ProductForm({ categories }: { categories: Category[] }) {
         <div className="space-y-1.5">
           <Label htmlFor="name">Name *</Label>
           <Input id="name" name="name" required />
-        </div>
-        <div className="space-y-1.5">
-          <Label htmlFor="description">Description</Label>
-          <Textarea id="description" name="description" rows={4} />
         </div>
       </div>
 

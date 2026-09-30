@@ -18,7 +18,6 @@ export async function createProduct(
   formData: FormData
 ): Promise<CreateProductState> {
   const name = formData.get("name");
-  const description = formData.get("description");
   const inStock = formData.get("inStock") === "on";
   const categoryIds = formData.getAll("categoryIds").map(Number).filter((n) => !Number.isNaN(n));
   const image = formData.get("image");
@@ -90,7 +89,7 @@ export async function createProduct(
   const { error: insertError } = await supabase.from("products").insert({
     slug,
     name: name.trim(),
-    description: typeof description === "string" ? description.trim() : "",
+    description: "",
     sku: variants[0].sku,
     price,
     currency: "usd",
