@@ -2,12 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Inbox, PackagePlus } from "lucide-react";
+import { Inbox, Package } from "lucide-react";
 import { cn } from "cn";
 
 const links = [
   { href: "/admin", label: "Contact Messages", icon: Inbox },
-  { href: "/admin/products/new", label: "Add Product", icon: PackagePlus },
+  { href: "/admin/products", label: "Products", icon: Package },
 ];
 
 export function AdminNav({ variant = "sidebar" }: { variant?: "sidebar" | "mobile" }) {

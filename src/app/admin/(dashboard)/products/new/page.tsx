@@ -1,7 +1,8 @@
 import { TriangleAlert } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { getAllCategories } from "@/lib/products";
-import { ProductForm } from "./product-form";
+import { ProductForm } from "../product-form";
+import { createProduct } from "../actions";
 
 // getAllCategories() uses the cookie-free public Supabase client (safe for
 // generateStaticParams elsewhere), so nothing here trips Next's automatic
@@ -47,7 +48,12 @@ export default async function NewProductPage() {
               <CardDescription>Fields marked required must be filled in.</CardDescription>
             </CardHeader>
             <CardContent>
-              <ProductForm categories={categories} />
+              <ProductForm
+                categories={categories}
+                action={createProduct}
+                submitLabel="Add Product"
+                pendingLabel="Saving…"
+              />
             </CardContent>
           </>
         )}

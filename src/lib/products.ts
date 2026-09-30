@@ -78,6 +78,17 @@ export async function getProductBySlug(slug: string): Promise<Product | undefine
   return data ? mapProduct(data as ProductRow) : undefined;
 }
 
+export async function getProductById(id: number): Promise<Product | undefined> {
+  const supabase = createClient();
+  const { data, error } = await supabase
+    .from("products")
+    .select("*")
+    .eq("id", id)
+    .maybeSingle();
+  if (error) throw error;
+  return data ? mapProduct(data as ProductRow) : undefined;
+}
+
 export async function getAllCategories(): Promise<Category[]> {
   const supabase = createClient();
   const { data, error } = await supabase
