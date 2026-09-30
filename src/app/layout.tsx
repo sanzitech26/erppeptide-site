@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: "Jaycey Peptides | Factory-Direct Research Peptides",
   description:
     "Factory-direct research peptides. Products move directly from factory production to shipment, with no extra reseller layer added.",
+  icons: {
+    icon: "/brand/logotouse_dd.jpg",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

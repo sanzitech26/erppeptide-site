@@ -24,11 +24,11 @@ export function SiteFooter() {
       <div className="mx-auto max-w-7xl px-4 py-12 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <Image
-            src="/brand/logo.png"
+            src="/brand/ikjnb.png"
             alt="Jaycey Peptides"
-            width={160}
-            height={40}
-            className="h-8 w-auto brightness-0 invert mb-4"
+            width={306}
+            height={68}
+            className="h-8 w-auto mb-4 brightness-0 invert"
           />
           <p className="text-sm text-primary-foreground/70">
             Jaycey Peptides™ products are for research purposes only. Not for
