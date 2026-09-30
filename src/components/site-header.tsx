@@ -6,6 +6,7 @@ import { useState } from 'react'
 import { Menu, X, ShoppingCart, Search, MessageCircle } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useCart } from '@/lib/cart-context'
+import { whatsappLink } from '@/lib/whatsapp'
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -51,9 +52,9 @@ export function SiteHeader() {
               size="sm"
               className="hidden md:inline-flex rounded-full"
               render={
-                <Link href="/contact">
+                <a href={whatsappLink()} target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="size-4" /> Online Support
-                </Link>
+                </a>
               }
             />
             <Button variant="ghost" size="icon" className="hidden sm:inline-flex" aria-label="Search">

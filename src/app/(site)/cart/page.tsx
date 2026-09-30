@@ -2,33 +2,12 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { useState } from 'react'
 import { useCart } from '@/lib/cart-context'
 import { Button } from '@/components/ui/button'
 import { Minus, Plus, X } from 'lucide-react'
 
 export default function CartPage() {
   const { items, setQuantity, removeItem, subtotal } = useCart()
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState<string | null>(null)
-
-  async function handleCheckout() {
-    setLoading(true)
-    setError(null)
-    try {
-      const res = await fetch('/api/checkout', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ items }),
-      })
-      const data = await res.json()
-      if (!res.ok || !data.url) throw new Error(data.error ?? 'Checkout failed')
-      window.location.href = data.url
-    } catch (e) {
-      setError(e instanceof Error ? e.message : 'Checkout failed')
-      setLoading(false)
-    }
-  }
 
   if (items.length === 0) {
     return (
@@ -98,12 +77,9 @@ export default function CartPage() {
             <span>${subtotal.toFixed(2)}</span>
           </div>
           <p className="text-xs text-muted-foreground">
-            Shipping and any applicable duties/taxes calculated at checkout.
+            Shipping, taxes, and payment are finalized with our team on WhatsApp.
           </p>
-          {error && <p className="text-sm text-destructive">{error}</p>}
-          <Button size="lg" className="w-full" onClick={handleCheckout} disabled={loading}>
-            {loading ? 'Redirecting…' : 'Checkout'}
-          </Button>
+          <Button size="lg" className="w-full" render={<Link href="/checkout">Checkout</Link>} />
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { Separator } from '@/components/ui/separator'
+import { whatsappLink } from '@/lib/whatsapp'
 
 const quickLinks = [
   { href: '/testing', label: 'Testing' },
@@ -72,7 +73,16 @@ export function SiteFooter() {
           </h3>
           <ul className="space-y-2 text-sm text-primary-foreground/80">
             <li>emmy@erppeptides.shop</li>
-            <li>+44 7999 102605</li>
+            <li>
+              <a
+                href={whatsappLink()}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-secondary transition-colors"
+              >
+                WhatsApp: +1 (402) 320-6956
+              </a>
+            </li>
             <li>Shanghai ERP Peptide Biotechnology Co., Ltd.</li>
           </ul>
         </div>
