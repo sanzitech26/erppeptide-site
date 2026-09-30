@@ -28,6 +28,9 @@ export async function POST(request: Request) {
   // tampered client-sent price can never reach Stripe.
   const line_items: Stripe.Checkout.SessionCreateParams.LineItem[] = []
   for (const item of items) {
+    if (!Number.isInteger(item.quantity) || item.quantity < 1 || item.quantity > 99) {
+      return NextResponse.json({ error: 'Invalid quantity' }, { status: 400 })
+    }
     const product = products.find((p) => p.id === item.productId)
     const variant = product?.variants.find((v) => v.sku === item.variantSku)
     const price = variant?.price ?? product?.price

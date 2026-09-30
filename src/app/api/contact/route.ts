@@ -1,18 +1,26 @@
 import { NextResponse } from 'next/server'
 import { createClient } from '@/lib/supabase/server'
 
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+
 export async function POST(request: Request) {
   const { name, email, message } = await request.json()
 
-  if (!name || !email || !message) {
-    return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
+  if (
+    typeof name !== 'string' || typeof email !== 'string' || typeof message !== 'string' ||
+    !name.trim() || !message.trim() || !EMAIL_RE.test(email)
+  ) {
+    return NextResponse.json({ error: 'Missing or invalid fields' }, { status: 400 })
+  }
+  if (name.length > 200 || email.length > 200 || message.length > 5000) {
+    return NextResponse.json({ error: 'Field too long' }, { status: 400 })
   }
 
   try {
     const supabase = await createClient()
     const { error } = await supabase
       .from('contact_messages')
-      .insert({ name, email, message })
+      .insert({ name: name.trim(), email: email.trim(), message: message.trim() })
 
     if (error) throw error
     return NextResponse.json({ ok: true })
