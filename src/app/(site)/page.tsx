@@ -156,8 +156,16 @@ const faqs = [
   },
 ]
 
-export default function Home() {
-  const featured = getFeaturedProducts(4)
+export const dynamic = 'force-dynamic'
+
+export default async function Home() {
+  let featured: Awaited<ReturnType<typeof getFeaturedProducts>> = []
+  try {
+    featured = await getFeaturedProducts(4)
+  } catch {
+    // Catalog not migrated/seeded yet — render without the featured grid
+    // rather than crashing the whole homepage.
+  }
 
   return (
     <div>

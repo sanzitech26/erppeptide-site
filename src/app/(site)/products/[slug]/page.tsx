@@ -2,8 +2,15 @@ import { notFound } from 'next/navigation'
 import { getAllProducts, getProductBySlug } from '@/lib/products'
 import { ProductDetail } from '@/components/product-detail'
 
-export function generateStaticParams() {
-  return getAllProducts().map((p) => ({ slug: p.slug }))
+export async function generateStaticParams() {
+  try {
+    const products = await getAllProducts()
+    return products.map((p) => ({ slug: p.slug }))
+  } catch {
+    // Supabase not migrated/seeded yet — don't fail the whole build; new
+    // and existing slugs still render on-demand via dynamicParams (default).
+    return []
+  }
 }
 
 export async function generateMetadata({
@@ -12,7 +19,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>
 }) {
   const { slug } = await params
-  const product = getProductBySlug(slug)
+  const product = await getProductBySlug(slug).catch(() => undefined)
   if (!product) return {}
   return {
     title: `${product.name} | ERP Peptide`,
@@ -26,7 +33,7 @@ export default async function ProductPage({
   params: Promise<{ slug: string }>
 }) {
   const { slug } = await params
-  const product = getProductBySlug(slug)
+  const product = await getProductBySlug(slug).catch(() => undefined)
   if (!product) notFound()
 
   return (

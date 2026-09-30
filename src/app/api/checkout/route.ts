@@ -22,7 +22,15 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Cart is empty' }, { status: 400 })
   }
 
-  const products = getAllProducts()
+  let products: Awaited<ReturnType<typeof getAllProducts>>
+  try {
+    products = await getAllProducts()
+  } catch {
+    return NextResponse.json(
+      { error: 'The catalog is temporarily unavailable. Please try again shortly.' },
+      { status: 503 }
+    )
+  }
 
   // Re-derive line items server-side from known product/variant data so a
   // tampered client-sent price can never reach Stripe.

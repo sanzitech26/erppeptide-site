@@ -13,12 +13,32 @@ export default async function ProductsPage({
   searchParams: Promise<{ category?: string }>
 }) {
   const { category: categorySlug } = await searchParams
-  const categories = getAllCategories()
-  const activeCategory = categorySlug ? getCategoryBySlug(categorySlug) : undefined
 
-  const products = activeCategory
-    ? getAllProducts().filter((p) => p.categoryIds.includes(activeCategory.id))
-    : getAllProducts()
+  let categories: Awaited<ReturnType<typeof getAllCategories>> = []
+  let activeCategory: Awaited<ReturnType<typeof getCategoryBySlug>> = undefined
+  let products: Awaited<ReturnType<typeof getAllProducts>> = []
+  let loadError = false
+
+  try {
+    categories = await getAllCategories()
+    activeCategory = categorySlug ? await getCategoryBySlug(categorySlug) : undefined
+    const allProducts = await getAllProducts()
+    products = activeCategory
+      ? allProducts.filter((p) => p.categoryIds.includes(activeCategory!.id))
+      : allProducts
+  } catch {
+    loadError = true
+  }
+
+  if (loadError) {
+    return (
+      <div className="mx-auto max-w-7xl px-4 py-12">
+        <p className="text-muted-foreground">
+          The catalog isn&apos;t available right now — please check back shortly.
+        </p>
+      </div>
+    )
+  }
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-12">
