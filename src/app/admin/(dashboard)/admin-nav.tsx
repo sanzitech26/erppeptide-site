@@ -10,8 +10,34 @@ const links = [
   { href: "/admin/products/new", label: "Add Product", icon: PackagePlus },
 ];
 
-export function AdminNav() {
+export function AdminNav({ variant = "sidebar" }: { variant?: "sidebar" | "mobile" }) {
   const pathname = usePathname();
+
+  if (variant === "mobile") {
+    return (
+      <nav className="flex gap-2 overflow-x-auto px-4 pb-3">
+        {links.map((l) => {
+          const active = pathname === l.href;
+          const Icon = l.icon;
+          return (
+            <Link
+              key={l.href}
+              href={l.href}
+              className={cn(
+                "flex shrink-0 items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-medium transition-colors",
+                active
+                  ? "bg-white/15 text-white"
+                  : "text-primary-foreground/70 hover:bg-white/5 hover:text-white"
+              )}
+            >
+              <Icon className="size-3.5" />
+              {l.label}
+            </Link>
+          );
+        })}
+      </nav>
+    );
+  }
 
   return (
     <nav className="flex flex-col gap-1">

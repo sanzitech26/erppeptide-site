@@ -5,8 +5,33 @@ import { AdminNav } from "./admin-nav";
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex min-h-screen bg-muted/30">
-      <aside className="flex w-64 shrink-0 flex-col bg-primary px-4 py-6 text-primary-foreground">
+    <div className="flex min-h-screen flex-col bg-muted/30 md:flex-row">
+      {/* Mobile top bar (hidden md and up) */}
+      <div className="bg-primary text-primary-foreground md:hidden">
+        <div className="flex items-center justify-between px-4 py-4">
+          <div>
+            <p className="font-heading text-lg leading-none">ERP Peptides</p>
+            <p className="text-[10px] font-medium tracking-wide text-primary-foreground/60 uppercase">
+              Admin
+            </p>
+          </div>
+          <form action={logout}>
+            <Button
+              variant="ghost"
+              size="icon-sm"
+              type="submit"
+              aria-label="Log out"
+              className="text-primary-foreground/70 hover:bg-white/5 hover:text-white"
+            >
+              <LogOut className="size-4" />
+            </Button>
+          </form>
+        </div>
+        <AdminNav variant="mobile" />
+      </div>
+
+      {/* Desktop sidebar (hidden below md) */}
+      <aside className="hidden w-64 shrink-0 flex-col bg-primary px-4 py-6 text-primary-foreground md:flex">
         <div className="mb-8 px-2">
           <p className="font-heading text-lg">ERP Peptides</p>
           <p className="text-xs font-medium tracking-wide text-primary-foreground/60 uppercase">
@@ -29,7 +54,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
         </form>
       </aside>
 
-      <main className="flex-1 px-8 py-10">
+      <main className="flex-1 px-4 py-6 md:px-8 md:py-10">
         <div className="mx-auto max-w-4xl">{children}</div>
       </main>
     </div>
