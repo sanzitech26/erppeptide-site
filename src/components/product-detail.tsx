@@ -220,11 +220,6 @@ export function ProductDetail({ product, categoryName }: { product: Product; cat
             </div>
           ))}
         </div>
-
-        <p className="text-xs text-muted-foreground border-t border-border pt-4 mt-5">
-          For research purposes only. Not for human consumption or clinical use.
-          Jaycey Peptides™ is not a pharmacy and does not provide medical advice.
-        </p>
       </div>
     </div>
   )
