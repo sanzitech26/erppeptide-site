@@ -1,15 +1,22 @@
 "use client";
 
 import { useActionState } from "react";
-import { updateEmail, updatePassword } from "./actions";
+import { updateEmail, updatePassword, updateBitcoinAddress } from "./actions";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 
-export function SettingsForms({ currentEmail }: { currentEmail: string }) {
+export function SettingsForms({
+  currentEmail,
+  currentBitcoinAddress,
+}: {
+  currentEmail: string;
+  currentBitcoinAddress: string;
+}) {
   const [emailState, emailAction, emailPending] = useActionState(updateEmail, undefined);
   const [passwordState, passwordAction, passwordPending] = useActionState(updatePassword, undefined);
+  const [bitcoinState, bitcoinAction, bitcoinPending] = useActionState(updateBitcoinAddress, undefined);
 
   return (
     <div className="space-y-6">
@@ -65,6 +72,32 @@ export function SettingsForms({ currentEmail }: { currentEmail: string }) {
             {passwordState?.success && <p className="text-sm text-green-600">{passwordState.success}</p>}
             <Button type="submit" disabled={passwordPending}>
               {passwordPending ? "Saving…" : "Update password"}
+            </Button>
+          </form>
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardHeader>
+          <CardTitle>Bitcoin payment address</CardTitle>
+          <CardDescription>Shown to customers at checkout to receive payment.</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <form action={bitcoinAction} className="space-y-4">
+            <div className="space-y-1.5">
+              <Label htmlFor="bitcoinAddress">Address</Label>
+              <Input
+                id="bitcoinAddress"
+                name="bitcoinAddress"
+                defaultValue={currentBitcoinAddress}
+                required
+                className="font-mono text-sm"
+              />
+            </div>
+            {bitcoinState?.error && <p className="text-sm text-destructive">{bitcoinState.error}</p>}
+            {bitcoinState?.success && <p className="text-sm text-green-600">{bitcoinState.success}</p>}
+            <Button type="submit" disabled={bitcoinPending}>
+              {bitcoinPending ? "Saving…" : "Update address"}
             </Button>
           </form>
         </CardContent>

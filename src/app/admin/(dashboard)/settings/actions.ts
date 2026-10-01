@@ -51,3 +51,22 @@ export async function updatePassword(
 
   return { success: "Password updated." };
 }
+
+export async function updateBitcoinAddress(
+  _prevState: SettingsState,
+  formData: FormData
+): Promise<SettingsState> {
+  const bitcoinAddress = formData.get("bitcoinAddress");
+  if (typeof bitcoinAddress !== "string" || !bitcoinAddress.trim()) {
+    return { error: "Bitcoin address is required." };
+  }
+
+  const supabase = await createClient();
+  const { error } = await supabase
+    .from("site_settings")
+    .update({ bitcoin_address: bitcoinAddress.trim(), updated_at: new Date().toISOString() })
+    .eq("id", 1);
+  if (error) return { error: error.message };
+
+  return { success: "Bitcoin address updated." };
+}
