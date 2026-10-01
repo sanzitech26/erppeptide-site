@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation'
-import { getAllProducts, getProductBySlug } from '@/lib/products'
+import { getAllProducts, getProductBySlug, getAllCategories } from '@/lib/products'
 import { ProductDetail } from '@/components/product-detail'
 
 export async function generateStaticParams() {
@@ -36,9 +36,12 @@ export default async function ProductPage({
   const product = await getProductBySlug(slug).catch(() => undefined)
   if (!product) notFound()
 
+  const categories = await getAllCategories().catch(() => [])
+  const categoryName = categories.find((c) => product.categoryIds.includes(c.id))?.name
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-12">
-      <ProductDetail product={product} />
+      <ProductDetail product={product} categoryName={categoryName} />
     </div>
   )
 }

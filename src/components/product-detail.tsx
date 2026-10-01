@@ -7,9 +7,27 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { useCart } from '@/lib/cart-context'
 import type { Product } from '@/lib/products'
-import { Minus, Plus, ShoppingCart, Check, Zap } from 'lucide-react'
+import {
+  Minus,
+  Plus,
+  ShoppingCart,
+  Check,
+  Zap,
+  FlaskConical,
+  ShieldCheck,
+  Truck,
+  BadgeCheck,
+  Headset,
+} from 'lucide-react'
 
-export function ProductDetail({ product }: { product: Product }) {
+const trustSignals = [
+  { icon: ShieldCheck, label: 'Secure Checkout' },
+  { icon: Truck, label: 'Fast & Discreet Shipping' },
+  { icon: BadgeCheck, label: 'Authentic Products' },
+  { icon: Headset, label: '24/7 Support' },
+]
+
+export function ProductDetail({ product, categoryName }: { product: Product; categoryName?: string }) {
   const variants = product.variants.length
     ? product.variants
     : [{ sku: product.sku, label: 'Standard', price: product.price, inStock: product.inStock }]
@@ -47,30 +65,61 @@ export function ProductDetail({ product }: { product: Product }) {
 
   return (
     <div className="grid gap-10 lg:grid-cols-2">
-      <div className="relative aspect-square bg-white rounded-xl border border-border">
-        {product.image ? (
-          <Image
-            src={product.image}
-            alt={product.name}
-            fill
-            className="object-contain p-10"
-            sizes="(min-width: 1024px) 50vw, 100vw"
-            priority
-          />
-        ) : (
-          <div className="flex h-full items-center justify-center text-muted-foreground">
-            No image available
-          </div>
-        )}
-        {!selected.inStock && (
-          <Badge variant="secondary" className="absolute top-4 left-4">
-            Out of stock
-          </Badge>
-        )}
+      <div>
+        <div className="relative aspect-square overflow-hidden rounded-2xl border border-border/60 bg-gradient-to-b from-muted/30 to-white shadow-sm">
+          {product.image ? (
+            <Image
+              src={product.image}
+              alt={product.name}
+              fill
+              className="object-contain p-10"
+              sizes="(min-width: 1024px) 50vw, 100vw"
+              priority
+            />
+          ) : (
+            <div className="flex h-full items-center justify-center text-muted-foreground">
+              No image available
+            </div>
+          )}
+          {!selected.inStock && (
+            <Badge variant="secondary" className="absolute top-4 left-4">
+              Out of stock
+            </Badge>
+          )}
+        </div>
+        <div className="mt-4 flex flex-wrap gap-2">
+          <span className="inline-flex items-center gap-1.5 rounded-full border border-border/60 bg-white px-3 py-1.5 text-xs font-medium text-muted-foreground">
+            <FlaskConical className="size-3.5 text-primary" />
+            Research Grade
+          </span>
+          <span className="inline-flex items-center gap-1.5 rounded-full border border-border/60 bg-white px-3 py-1.5 text-xs font-medium text-muted-foreground">
+            <ShieldCheck className="size-3.5 text-primary" />
+            Purity Tested
+          </span>
+        </div>
       </div>
 
       <div>
-        <h1 className="font-heading text-3xl font-bold mb-3">{product.name}</h1>
+        {categoryName && (
+          <p className="text-xs font-semibold tracking-widest text-primary uppercase mb-2">
+            {categoryName}
+          </p>
+        )}
+
+        <div className="flex items-start justify-between gap-4">
+          <h1 className="font-heading text-3xl font-bold mb-1">{product.name}</h1>
+          <span
+            className={`shrink-0 rounded-full px-3 py-1 text-xs font-semibold ${
+              selected.inStock
+                ? 'bg-green-100 text-green-700'
+                : 'bg-muted text-muted-foreground'
+            }`}
+          >
+            {selected.inStock ? 'In Stock' : 'Out of Stock'}
+          </span>
+        </div>
+        <p className="text-xs text-muted-foreground mb-4">SKU: {selected.sku}</p>
+
         <p className="text-2xl font-semibold text-primary mb-6">
           ${selected.price.toFixed(2)}
         </p>
@@ -163,7 +212,16 @@ export function ProductDetail({ product }: { product: Product }) {
           </div>
         </div>
 
-        <p className="text-xs text-muted-foreground border-t border-border pt-4">
+        <div className="grid grid-cols-2 gap-y-3 border-t border-border pt-5 sm:grid-cols-4">
+          {trustSignals.map(({ icon: Icon, label }) => (
+            <div key={label} className="flex items-center gap-2 text-xs text-muted-foreground">
+              <Icon className="size-4 shrink-0 text-primary" />
+              {label}
+            </div>
+          ))}
+        </div>
+
+        <p className="text-xs text-muted-foreground border-t border-border pt-4 mt-5">
           For research purposes only. Not for human consumption or clinical use.
           Jaycey Peptides™ is not a pharmacy and does not provide medical advice.
         </p>
