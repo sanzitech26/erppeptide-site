@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { getAllBlogPosts } from '@/lib/blog'
 
 export const metadata = { title: 'Blog | Jaycey Peptides' }
+export const dynamic = 'force-dynamic'
 
 export default async function BlogPage() {
   let posts: Awaited<ReturnType<typeof getAllBlogPosts>> = []
