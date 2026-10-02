@@ -1,19 +1,13 @@
 import { NextResponse } from 'next/server'
-import nodemailer from 'nodemailer'
+import { getMailer } from '@/lib/mailer'
 import { buildOrderEmailHtml, type OrderItem } from '@/lib/order-email'
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 const MAX_PROOF_SIZE = 10 * 1024 * 1024 // 10MB
 
 export async function POST(request: Request) {
-  const smtpHost = process.env.SMTP_HOST
-  const smtpPort = process.env.SMTP_PORT
-  const smtpUser = process.env.SMTP_USER
-  const smtpPass = process.env.SMTP_PASS
-  const smtpFrom = process.env.SMTP_FROM
-  const recipient = process.env.ORDER_NOTIFICATION_EMAIL
-
-  if (!smtpHost || !smtpPort || !smtpUser || !smtpPass || !smtpFrom || !recipient) {
+  const mailer = getMailer()
+  if (!mailer) {
     return NextResponse.json(
       { error: 'Ordering is not configured yet — please contact us directly to place your order.' },
       { status: 503 }
@@ -76,16 +70,7 @@ export async function POST(request: Request) {
   const proofBuffer = Buffer.from(await proof.arrayBuffer())
 
   try {
-    const transporter = nodemailer.createTransport({
-      host: smtpHost,
-      port: Number(smtpPort),
-      secure: Number(smtpPort) === 465,
-      auth: { user: smtpUser, pass: smtpPass },
-    })
-
-    await transporter.sendMail({
-      from: smtpFrom,
-      to: recipient,
+    await mailer.sendMail({
       replyTo: email.trim(),
       subject: `New Order — ${name.trim()}`,
       html,

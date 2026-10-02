@@ -74,9 +74,11 @@ export function SiteFooter() {
             Contact Us
           </h3>
           <ul className="space-y-2 text-sm text-primary-foreground/80">
-            {process.env.ORDER_NOTIFICATION_EMAIL && (
-              <li>{process.env.ORDER_NOTIFICATION_EMAIL}</li>
-            )}
+            <li>
+              <a href="mailto:info@jayceypeptides.com" className="hover:text-secondary transition-colors">
+                info@jayceypeptides.com
+              </a>
+            </li>
             <li>
               <a
                 href={whatsappLink()}
