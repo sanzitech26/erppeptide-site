@@ -2,11 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Inbox, Package, HelpCircle, MessageSquareQuote, Newspaper, Settings } from "lucide-react";
+import { Inbox, ShoppingBag, Package, HelpCircle, MessageSquareQuote, Newspaper, Settings } from "lucide-react";
 import { cn } from "cn";
 
 const links = [
   { href: "/admin", label: "Contact Messages", icon: Inbox },
+  { href: "/admin/orders", label: "Orders", icon: ShoppingBag },
   { href: "/admin/products", label: "Products", icon: Package },
   { href: "/admin/faqs", label: "FAQ", icon: HelpCircle },
   { href: "/admin/testimonials", label: "Testimonials", icon: MessageSquareQuote },

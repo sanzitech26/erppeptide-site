@@ -1,19 +1,12 @@
 import { NextResponse } from 'next/server'
 import { getMailer } from '@/lib/mailer'
+import { createClient } from '@/lib/supabase/server'
 import { buildOrderEmailHtml, type OrderItem } from '@/lib/order-email'
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 const MAX_PROOF_SIZE = 10 * 1024 * 1024 // 10MB
 
 export async function POST(request: Request) {
-  const mailer = getMailer()
-  if (!mailer) {
-    return NextResponse.json(
-      { error: 'Ordering is not configured yet — please contact us directly to place your order.' },
-      { status: 503 }
-    )
-  }
-
   const formData = await request.formData()
   const name = formData.get('name')
   const email = formData.get('email')
@@ -52,36 +45,56 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Invalid order items.' }, { status: 400 })
   }
 
-  const html = buildOrderEmailHtml({
-    items,
-    subtotal,
-    customer: {
-      name: name.trim(),
-      email: email.trim(),
-      street: street.trim(),
-      city: typeof city === 'string' ? city.trim() : '',
-      state: typeof state === 'string' ? state.trim() : '',
-      zip: typeof zip === 'string' ? zip.trim() : '',
-      country: typeof country === 'string' ? country.trim() : '',
-      notes: typeof notes === 'string' ? notes.trim() : '',
-    },
-  })
-
+  const customer = {
+    name: name.trim(),
+    email: email.trim(),
+    street: street.trim(),
+    city: typeof city === 'string' ? city.trim() : '',
+    state: typeof state === 'string' ? state.trim() : '',
+    zip: typeof zip === 'string' ? zip.trim() : '',
+    country: typeof country === 'string' ? country.trim() : '',
+    notes: typeof notes === 'string' ? notes.trim() : '',
+  }
   const proofBuffer = Buffer.from(await proof.arrayBuffer())
 
-  try {
-    await mailer.sendMail({
-      replyTo: email.trim(),
-      subject: `New Order — ${name.trim()}`,
-      html,
-      attachments: [
-        {
-          filename: proof.name || 'payment-proof.png',
-          content: proofBuffer,
-        },
-      ],
-    })
-  } catch {
+  // Save to the admin Orders list and email info@ independently; only fail if both fail.
+  const saved = await (async () => {
+    try {
+      const supabase = await createClient()
+      const ext = (proof.name.split('.').pop() || 'png').replace(/[^a-z0-9]/gi, '').slice(0, 5) || 'png'
+      const path = `proof-${Date.now()}-${crypto.randomUUID()}.${ext}`
+      const { error: uploadError } = await supabase.storage
+        .from('order-proofs')
+        .upload(path, proofBuffer, { contentType: proof.type || undefined })
+      const { error } = await supabase.from('orders').insert({
+        ...customer,
+        items,
+        subtotal,
+        proof_path: uploadError ? null : path,
+      })
+      return !error
+    } catch {
+      return false
+    }
+  })()
+
+  const emailed = await (async () => {
+    try {
+      const mailer = getMailer()
+      if (!mailer) return false
+      await mailer.sendMail({
+        replyTo: customer.email,
+        subject: `New Order — ${customer.name}`,
+        html: buildOrderEmailHtml({ items, subtotal, customer }),
+        attachments: [{ filename: proof.name || 'payment-proof.png', content: proofBuffer }],
+      })
+      return true
+    } catch {
+      return false
+    }
+  })()
+
+  if (!saved && !emailed) {
     return NextResponse.json(
       { error: 'Could not send your order right now — please try again shortly or contact us directly.' },
       { status: 502 }
