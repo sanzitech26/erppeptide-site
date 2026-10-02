@@ -21,7 +21,7 @@ export function AdminNav({ variant = "sidebar" }: { variant?: "sidebar" | "mobil
     return (
       <nav className="flex gap-2 overflow-x-auto px-4 pb-3">
         {links.map((l) => {
-          const active = pathname === l.href;
+          const active = l.href === "/admin" ? pathname === l.href : pathname.startsWith(l.href);
           const Icon = l.icon;
           return (
             <Link
@@ -46,7 +46,7 @@ export function AdminNav({ variant = "sidebar" }: { variant?: "sidebar" | "mobil
   return (
     <nav className="flex flex-col gap-1">
       {links.map((l) => {
-        const active = pathname === l.href;
+        const active = l.href === "/admin" ? pathname === l.href : pathname.startsWith(l.href);
         const Icon = l.icon;
         return (
           <Link

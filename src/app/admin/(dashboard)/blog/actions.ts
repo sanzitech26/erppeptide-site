@@ -87,7 +87,7 @@ export async function createBlogPost(
 
   revalidatePath("/blog");
   revalidatePath("/admin/blog");
-  return { success: true };
+  redirect("/admin/blog");
 }
 
 export async function updateBlogPost(

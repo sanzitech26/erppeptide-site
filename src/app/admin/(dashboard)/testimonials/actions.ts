@@ -38,7 +38,8 @@ export async function createTestimonial(
 
   revalidatePath("/");
   revalidatePath("/testimonials");
-  return { success: true };
+  revalidatePath("/admin/testimonials");
+  redirect("/admin/testimonials");
 }
 
 export async function updateTestimonial(
