@@ -6,6 +6,8 @@ import { createClient } from "@/lib/supabase/server";
 
 export type BlogFormState = { error?: string; success?: boolean } | undefined;
 
+const MAX_IMAGE_BYTES = 3.5 * 1024 * 1024;
+
 function slugify(input: string) {
   return input
     .toLowerCase()
@@ -61,6 +63,9 @@ export async function createBlogPost(
 
   let coverImage: string | null = null;
   const image = formData.get("coverImage");
+  if (image instanceof File && image.size > MAX_IMAGE_BYTES) {
+    return { error: "Cover image must be under 4 MB." };
+  }
   if (image instanceof File && image.size > 0) {
     const ext = image.name.split(".").pop() || "jpg";
     const path = `blog-${slug}-${Date.now()}.${ext}`;
@@ -81,7 +86,7 @@ export async function createBlogPost(
   if (error) return { error: `Could not save: ${error.message}` };
 
   revalidatePath("/blog");
-  revalidatePath("/sitemap.xml");
+  revalidatePath("/admin/blog");
   return { success: true };
 }
 
@@ -103,6 +108,9 @@ export async function updateBlogPost(
 
   let coverImage = existingPost.cover_image as string | null;
   const image = formData.get("coverImage");
+  if (image instanceof File && image.size > MAX_IMAGE_BYTES) {
+    return { error: "Cover image must be under 4 MB." };
+  }
   if (image instanceof File && image.size > 0) {
     const ext = image.name.split(".").pop() || "jpg";
     const path = `blog-${existingPost.slug}-${Date.now()}.${ext}`;
@@ -126,7 +134,6 @@ export async function updateBlogPost(
 
   revalidatePath("/blog");
   revalidatePath(`/blog/${existingPost.slug}`);
-  revalidatePath("/sitemap.xml");
   revalidatePath("/admin/blog");
   redirect("/admin/blog");
 }
@@ -136,6 +143,5 @@ export async function deleteBlogPost(id: number) {
   await supabase.from("blog_posts").delete().eq("id", id);
 
   revalidatePath("/blog");
-  revalidatePath("/sitemap.xml");
   revalidatePath("/admin/blog");
 }

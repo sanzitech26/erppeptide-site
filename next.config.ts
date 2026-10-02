@@ -5,6 +5,8 @@ const supabaseHostname = process.env.NEXT_PUBLIC_SUPABASE_URL
   : undefined;
 
 const nextConfig: NextConfig = {
+  // Default is 1mb, which blog cover photos exceed; Vercel caps requests at 4.5mb.
+  experimental: { serverActions: { bodySizeLimit: "4mb" } },
   images: {
     remotePatterns: supabaseHostname
       ? [

@@ -12,6 +12,8 @@ const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/products', label: 'Products' },
   { href: '/about', label: 'About Us' },
+  { href: '/testimonials', label: 'Testimonials' },
+  { href: '/blog', label: 'Blog' },
 ]
 
 export function SiteHeader() {
