@@ -72,8 +72,10 @@ export async function POST(request: Request) {
         subtotal,
         proof_path: uploadError ? null : path,
       })
+      if (error) console.error('order save failed:', error.message)
       return !error
-    } catch {
+    } catch (e) {
+      console.error('order save failed:', e)
       return false
     }
   })()
@@ -81,7 +83,10 @@ export async function POST(request: Request) {
   const emailed = await (async () => {
     try {
       const mailer = getMailer()
-      if (!mailer) return false
+      if (!mailer) {
+        console.error('order email skipped: SMTP_PASS is not set')
+        return false
+      }
       await mailer.sendMail({
         replyTo: customer.email,
         subject: `New Order — ${customer.name}`,
@@ -89,7 +94,8 @@ export async function POST(request: Request) {
         attachments: [{ filename: proof.name || 'payment-proof.png', content: proofBuffer }],
       })
       return true
-    } catch {
+    } catch (e) {
+      console.error('order email failed:', e)
       return false
     }
   })()
